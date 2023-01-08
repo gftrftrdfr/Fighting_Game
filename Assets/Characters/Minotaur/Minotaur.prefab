@@ -889,7 +889,7 @@ GameObject:
   - component: {fileID: 6965987880196262739}
   - component: {fileID: 6965987880196262738}
   m_Layer: 3
-  m_Name: 01
+  m_Name: Minotaur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

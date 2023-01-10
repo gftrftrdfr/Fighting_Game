@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: a049352c4f61d6a41a1e81e6b863853b
   - enabled: 1
+    path: Assets/Scenes/SelectMap.unity
+    guid: 6b10fd4edc3a83747bb2a82c718dd828
+  - enabled: 1
     path: Assets/Scenes/Desert.unity
     guid: b1aa785d3ffba684280ada7c6741b7fe
+  - enabled: 1
+    path: Assets/Scenes/Fairy.unity
+    guid: 40b05c3ee3661b54e8e3e65e7573ab4b
+  - enabled: 1
+    path: Assets/Scenes/Halloween.unity
+    guid: 5181bb3da726f5640b845d0f8f9e5d51
   m_configObjects: {}

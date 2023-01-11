@@ -64,18 +64,18 @@ public class CharacterMovement : MonoBehaviour
             return;
         }
 
-        if ((Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.LeftShift)))
+        if ((Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.RightShift)))
         {
             horizontalRun = -25f;
             animator.SetFloat("runSpeed", Mathf.Abs(horizontalRun));
         }
-        if ((Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.LeftShift)))
+        if ((Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.RightShift)))
         {
             horizontalRun = 25f;
             animator.SetFloat("runSpeed", Mathf.Abs(horizontalRun));
         }
 
-        if ((Input.GetKeyDown(KeyCode.K)))
+        if ((Input.GetKeyDown(KeyCode.Keypad0)))
         {
             animator.SetBool("isAttacking", true);
             Attack();

@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3942646952176393278}
   - component: {fileID: 8442077484938301549}
-  - component: {fileID: 4899424383669128706}
+  - component: {fileID: 3802335425430197031}
   m_Layer: 0
   m_Name: Face 01
   m_TagString: Untagged
@@ -204,7 +204,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4899424383669128706
+--- !u!114 &3802335425430197031
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -805,7 +805,7 @@ Transform:
   - {fileID: 2411529917857347514}
   - {fileID: 8532176105790491993}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &5694544222038181564
 Animator:

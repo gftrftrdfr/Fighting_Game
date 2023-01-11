@@ -533,7 +533,7 @@ Transform:
   - {fileID: 3333186927867493789}
   - {fileID: 8175247473940427610}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1329663637186655352
 Animator:
@@ -611,7 +611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5604331913459824911}
   - component: {fileID: 8915165323712881475}
-  - component: {fileID: 6937761907928272052}
+  - component: {fileID: 6609389583148760644}
   m_Layer: 0
   m_Name: Face 01
   m_TagString: Untagged
@@ -686,7 +686,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6937761907928272052
+--- !u!114 &6609389583148760644
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

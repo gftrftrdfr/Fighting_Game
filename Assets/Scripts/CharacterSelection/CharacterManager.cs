@@ -102,7 +102,7 @@ public class CharacterManager : MonoBehaviour
             scenceName = PlayerPrefs.GetString("sceneName");
         }
         UpdateCharacter(selectedCharacterOption, selectedSkinOption);
-        //SceneManager.LoadScene(scenceName);
-        SceneManager.LoadScene("TestScene");
+        SceneManager.LoadScene(scenceName);
+        //SceneManager.LoadScene("TestScene");
     }
 }

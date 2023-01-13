@@ -14,6 +14,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private TrailRenderer tr;
     [SerializeField] private LayerMask m_WhatIsGround;
     [SerializeField] private Transform m_GroundCheck;
+    [SerializeField] private GameObject textPopup;
     private Component[] cpn;
     public Transform attackPoint;
     public float attackRange = 0.5f;
@@ -37,6 +38,7 @@ public class CharacterMovement : MonoBehaviour
     const float k_GroundedRadius = .2f;
     private bool canDash = true;
     private bool canAttack = true;
+    private bool canDefen = true;
     private bool isDashing;
     private float dashingPower = 25f;
     private float dashingTime = 0.1f;
@@ -73,11 +75,23 @@ public class CharacterMovement : MonoBehaviour
                 animator.SetBool("isJumping", true);
                 currentStamina -= 25;
 
+            } else if (Input.GetButtonDown("Jump 1") && (currentStamina < 25))
+            {
+                Show("Not enough stamina");
             }
 
             if (Input.GetButtonDown("Dash 1") && canDash && (currentStamina >= 50))
             {
                 StartCoroutine(Dash());
+            }
+            else if (Input.GetButtonDown("Dash 1") && canDash && (currentStamina < 50))
+            {
+                Show("Not enough stamina");
+            }
+            else if (Input.GetButtonDown("Dash 1") && !canDash)
+            {
+                Show("On cooldown");
+
             }
 
             if (isDashing)
@@ -104,9 +118,15 @@ public class CharacterMovement : MonoBehaviour
                 StartCoroutine(Attack());
             }
 
-            if ((Input.GetKeyDown(KeyCode.K)))
+            if ((Input.GetButton("Defen 1")) && canDefen && currentStamina >= 30)
             {
                 animator.SetBool("isDefending", true);
+                StartCoroutine(Defen());
+                currentStamina -= 30;
+            }
+            else if ((Input.GetButton("Defen 1")) && canDefen && currentStamina < 30)
+            {
+                Show("Not enough stamina");
             }
 
             if ((Input.GetKey(KeyCode.Alpha1)))
@@ -137,10 +157,25 @@ public class CharacterMovement : MonoBehaviour
                 currentStamina -= 25;
 
             }
+            else if (Input.GetButtonDown("Jump 2") && (currentStamina < 25))
+            {
+                Show("Not enough stamina");
+
+            }
 
             if (Input.GetButtonDown("Dash 2") && canDash && (currentStamina >= 50))
             {
                 StartCoroutine(Dash());
+            }
+            else if (Input.GetButtonDown("Dash 2") && canDash && (currentStamina < 50))
+            {
+                Show("Not enough stamina");
+
+            }
+            else if (Input.GetButtonDown("Dash 2") && !canDash)
+            {
+                Show("On cooldown");
+
             }
 
             if (isDashing)
@@ -167,10 +202,15 @@ public class CharacterMovement : MonoBehaviour
                 StartCoroutine(Attack());
             }
 
-            //if ((Input.GetMouseButton(1)))
-            //{
-            //    animator.SetBool("isDefending", true);
-            //}
+            if ((Input.GetButton("Defen 2")) && canDefen && currentStamina >= 30)
+            {
+                animator.SetBool("isDefending", true);
+                StartCoroutine(Defen());
+                currentStamina -= 30;
+            } else if ((Input.GetButton("Defen 2")) && canDefen && currentStamina < 30)
+            {
+                Show("Not enough stamina");
+            }
 
             //if ((Input.GetKey(KeyCode.Alpha1)))
             //{
@@ -295,6 +335,19 @@ public class CharacterMovement : MonoBehaviour
         canDash = true; 
     }
 
+    private IEnumerator Defen()
+    {
+        canDefen = false;
+        int temp = armor;
+        armor = 100;
+        animator.SetBool("isDefending", true);
+        
+        
+        yield return new WaitForSeconds(1f);
+        canDefen = true;
+        armor = temp;
+    }
+
     private IEnumerator Attack()
     {
         canAttack = false;
@@ -316,17 +369,43 @@ public class CharacterMovement : MonoBehaviour
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 
+    public IEnumerator canNotAttack(float time)
+    {
+        canAttack = false;
+        yield return new WaitForSeconds(time);
+        canAttack = true;
+    }
     public void TakeDamage(int dmg)
     {
-        currentPower += 17;
-        animator.SetTrigger("Hurt");
-        currentHealth -= dmg - (dmg * armor/100);
-
-        if (currentHealth <= 0)
+        if ((dmg - (dmg * armor / 100) == 0))
         {
-            currentHealth = 0;
-            Die();
+            Show("Defended");
+            if (player.tag == "Player 2")
+            {
+                GameObject enemy = GameObject.FindGameObjectWithTag("Player 1");
+                enemy.GetComponent<CharacterMovement>().canNotAttack(0.5f);
+            }
+            else if (player.tag == "Player 1")
+            {
+                GameObject enemy = GameObject.FindGameObjectWithTag("Player 2");
+                enemy.GetComponent<CharacterMovement>().canNotAttack(0.5f);
+            }
         }
+        else {
+            StartCoroutine(canNotAttack(0.2f));
+            currentPower += 17;
+            animator.SetTrigger("Hurt");
+            currentHealth -= dmg - (dmg * armor / 100);
+            Show((dmg - (dmg * armor / 100)).ToString());
+
+
+            if (currentHealth <= 0)
+            {
+                currentHealth = 0;
+                Die();
+            }
+        }
+        
     }
 
     void Die()
@@ -343,6 +422,16 @@ public class CharacterMovement : MonoBehaviour
         rb.drag = 10f;
         rb.gravityScale = 0f;
         this.enabled = false;
+    }
+
+    void Show(string text)
+    {
+        if(textPopup)
+        {
+            GameObject pbObject = Instantiate(textPopup, transform.position, Quaternion.identity);
+            pbObject.GetComponentInChildren<TMPro.TextMeshPro>().text = text;
+        }
+        
     }
 
 }

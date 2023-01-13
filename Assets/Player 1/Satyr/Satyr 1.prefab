@@ -582,6 +582,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 55
   m_GroundCheck: {fileID: 1951440728914684783}
+  textPopup: {fileID: 6575448393156316914, guid: 8dd63a0e948e5794592e15912b0ccf64, type: 3}
   attackPoint: {fileID: 1951440727560054416}
   attackRange: 2.5
   enemyLayers:
@@ -590,6 +591,10 @@ MonoBehaviour:
   walkSpeed: 8
   maxHealth: 100
   currentHealth: 0
+  maxStamina: 100
+  currentStamina: 0
+  maxPower: 100
+  currentPower: 0
   attackDmg: 20
   attackSpeed: 1.2
   armor: 25

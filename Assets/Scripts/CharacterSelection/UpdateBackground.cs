@@ -13,6 +13,5 @@ public class UpdateBackground : MonoBehaviour
         }
         BackgroundObject bgObject = backgroundDB.GetBackgroundByName(bgName);
         this.GetComponent<Image>().sprite = bgObject.backgroundSprite;
-
     }
 }

@@ -7,62 +7,92 @@ public class CharacterManager : MonoBehaviour
     public CharacterDatabase characterDB;
     public TextMeshProUGUI nameText;
     public Image artworkSprite;
-    private int selectedOption = 0;
+    private int selectedCharacterOption = 0;
+    private int selectedSkinOption = 0;
     public int playerNumber;
 
     void Start()
     {
-        if (!PlayerPrefs.HasKey("selectedOption" + playerNumber.ToString()))
+        if (!PlayerPrefs.HasKey("selectedCharacterOption" + playerNumber.ToString())
+            || !PlayerPrefs.HasKey("selectedSkinOption" + playerNumber.ToString()))
         {
-            selectedOption = 0;
+            selectedCharacterOption = 0;
+            selectedSkinOption = 0;
         }
         else
         {
             Load();
         }
-        UpdateCharacter(selectedOption);
+        UpdateCharacter(selectedCharacterOption,selectedSkinOption);
     }
 
-    public void NextOption()
+    public void NextSkinOption()
     {
-        selectedOption++;
-        if( selectedOption >= characterDB.CharacterCount)
+        selectedSkinOption++;
+        Character character = characterDB.GetCharacter(selectedCharacterOption);
+        if(selectedSkinOption >= character.SkinCount)
         {
-            selectedOption = 0;
+            selectedSkinOption = 0;
         }
 
-        UpdateCharacter(selectedOption);
+        UpdateCharacter(selectedCharacterOption,selectedSkinOption);
         Save();
-        Debug.Log(selectedOption);
 
     }
 
-    public void BackOption()
+    public void BackSkinOption()
     {
-        selectedOption--;
-        if(selectedOption < 0)
+        selectedSkinOption--;
+        Character character = characterDB.GetCharacter(selectedCharacterOption);
+        if (selectedSkinOption < 0)
         {
-            selectedOption = characterDB.CharacterCount - 1;
+            selectedSkinOption = character.SkinCount - 1;
         }
-        UpdateCharacter(selectedOption);
+        UpdateCharacter(selectedCharacterOption,selectedSkinOption);
+        Save();
+    }
+    public void NextCharacterOption()
+    {
+        selectedCharacterOption++;
+        if( selectedCharacterOption >= characterDB.CharacterCount)
+        {
+            selectedCharacterOption = 0;
+        }
+        selectedSkinOption = 0;
+        UpdateCharacter(selectedCharacterOption, 0);
         Save();
     }
 
-    private void UpdateCharacter(int selectedOption)
+    public void BackCharacterOption()
     {
-        Character character = characterDB.GetCharacter(selectedOption);
-        artworkSprite.sprite = character.characterSprite;
+        selectedCharacterOption--;
+        if(selectedCharacterOption < 0)
+        {
+            selectedCharacterOption = characterDB.CharacterCount - 1;
+        }
+        selectedSkinOption = 0;
+        UpdateCharacter(selectedCharacterOption, 0);
+        Save();
+    }
+
+    private void UpdateCharacter(int selectedCharacterOption, int selectedSkinOption)
+    {
+        Character character = characterDB.GetCharacter(selectedCharacterOption);
+        Debug.Log(selectedSkinOption);
+        artworkSprite.sprite = character.characterSprite[selectedSkinOption];
         nameText.text = character.characterName;
     }
 
     private void Load()
     {
-        selectedOption = PlayerPrefs.GetInt("selectedOption" + playerNumber.ToString());
+        selectedCharacterOption = PlayerPrefs.GetInt("selectedCharacterOption" + playerNumber.ToString());
+        selectedSkinOption = PlayerPrefs.GetInt("selectedSkinOption" + playerNumber.ToString());
     }
 
     private void Save()
     {
-        PlayerPrefs.SetInt("selectedOption" + playerNumber.ToString(), selectedOption);
+        PlayerPrefs.SetInt("selectedCharacterOption" + playerNumber.ToString(), selectedCharacterOption);
+        PlayerPrefs.SetInt("selectedSkinOption" + playerNumber.ToString(), selectedSkinOption);
     }
     public void ChangeScene()
     {
@@ -71,7 +101,8 @@ public class CharacterManager : MonoBehaviour
         {
             scenceName = PlayerPrefs.GetString("sceneName");
         }
-        UpdateCharacter(selectedOption);
-        SceneManager.LoadScene(scenceName);
+        UpdateCharacter(selectedCharacterOption, selectedSkinOption);
+        //SceneManager.LoadScene(scenceName);
+        SceneManager.LoadScene("TestScene");
     }
 }

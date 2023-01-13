@@ -1827,7 +1827,8 @@ GameObject:
   - component: {fileID: 2550896778664720917}
   - component: {fileID: 2550896778664720918}
   - component: {fileID: 2550896778664720919}
-  m_Layer: 3
+  - component: {fileID: 6843882185537586825}
+  m_Layer: 9
   m_Name: Fallen_Angels 1
   m_TagString: Player 1
   m_Icon: {fileID: 0}
@@ -1932,10 +1933,16 @@ MonoBehaviour:
     m_Bits: 55
   m_GroundCheck: {fileID: 2550896777388854835}
   attackPoint: {fileID: 2550896778206610380}
-  attackRange: 1.52
+  attackRange: 1.7
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1024
+  walkSpeed: 12
+  maxHealth: 100
+  currentHealth: 0
+  attackDmg: 10
+  attackSpeed: 3
+  armor: 20
 --- !u!114 &2550896778664720919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1948,7 +1955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2161e40fa964114083d9dbbb73ea04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 500
+  m_JumpForce: 600
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
   m_AirControl: 0
@@ -1976,6 +1983,32 @@ MonoBehaviour:
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!61 &6843882185537586825
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2550896778664721128}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.12, y: 2.7519045}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.75, y: 6.4}
+  m_EdgeRadius: 0
 --- !u!1 &2550896778701870842
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,9 +13,28 @@ MonoBehaviour:
   m_Name: New Character Database
   m_EditorClassIdentifier: 
   characters:
-  - characterName: 1
-    characterSprite: {fileID: 21300000, guid: dbe2aae8bdac92a4da9693e1ad9989d8, type: 3}
-  - characterName: 2
-    characterSprite: {fileID: 21300000, guid: 7a7c294e99a957d4f9bf80d0951dcc6f, type: 3}
-  - characterName: 3
-    characterSprite: {fileID: 21300000, guid: 99ace9dd06fb9354b9f7246d25c1de0e, type: 3}
+  - characterName: Fallen Angels
+    characterSprite:
+    - {fileID: 21300000, guid: 3f458ba4894b70941a245dda8a9b593f, type: 3}
+    - {fileID: 21300000, guid: 21b2994bff46ff44ea0628a74f59f85c, type: 3}
+    - {fileID: 21300000, guid: b9ada515be434354b8ea37dc9f609519, type: 3}
+  - characterName: Golem
+    characterSprite:
+    - {fileID: 21300000, guid: 9cc55e6ccde616d47ad2576042f421e7, type: 3}
+    - {fileID: 21300000, guid: e7a2a22f8d815d74aa767a44396dce95, type: 3}
+    - {fileID: 21300000, guid: 7cb86b25f16affb48900d1dd3710a260, type: 3}
+  - characterName: Minotaur
+    characterSprite:
+    - {fileID: 21300000, guid: 4cc4163eb46ba294b9ed7fa231bd932c, type: 3}
+    - {fileID: 21300000, guid: d618c24ca81b3494cb6924d3596bc5d8, type: 3}
+    - {fileID: 21300000, guid: d52608330a2d1014783a44218e2cf7c5, type: 3}
+  - characterName: Satyr
+    characterSprite:
+    - {fileID: 21300000, guid: 96368644a9a9dc44697d2bfdc9ffb087, type: 3}
+    - {fileID: 21300000, guid: e1aac03943a512f44a1ec7c7dd59161b, type: 3}
+    - {fileID: 21300000, guid: aaba666098fbed141919a3af4fefdb9d, type: 3}
+  - characterName: Wraith
+    characterSprite:
+    - {fileID: 21300000, guid: dbe2aae8bdac92a4da9693e1ad9989d8, type: 3}
+    - {fileID: 21300000, guid: 7a7c294e99a957d4f9bf80d0951dcc6f, type: 3}
+    - {fileID: 21300000, guid: 99ace9dd06fb9354b9f7246d25c1de0e, type: 3}

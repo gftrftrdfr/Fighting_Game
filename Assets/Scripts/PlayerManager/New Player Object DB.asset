@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee7cbed209adca8479f29150be0aac45, type: 3}
+  m_Name: New Player Object DB
+  m_EditorClassIdentifier: 
+  player1:
+  - gameObjects:
+    - {fileID: 2550896778664721128, guid: 43588b88943f40447b0b4c20f077b9ed, type: 3}
+    - {fileID: 2550896778664721128, guid: 1fb5f7bbadce9bf489d3e14f44f1713b, type: 3}
+    - {fileID: 5378085999028356962, guid: bae8cc9314a6a7b48a2b1040a1a32bf5, type: 3}
+  - gameObjects:
+    - {fileID: 2636345342741803402, guid: b2c35eee2901fae4481c580faad31969, type: 3}
+    - {fileID: 9065221259233661333, guid: 26186b448cce5c449860c1e43c7f53ea, type: 3}
+    - {fileID: 947316903753624829, guid: 4345aeb765b6a4948a709b77b2e2553a, type: 3}
+  - gameObjects:
+    - {fileID: 5208947490256135445, guid: 73ac59bd606b08b4ab3b9acce62823e1, type: 3}
+    - {fileID: 2913114985158323938, guid: 3feb160ddf20b1e49a87c877ebc19a84, type: 3}
+    - {fileID: 4157731250490359695, guid: 7b007558b45bf4b4e82aadc0e1b9adb8, type: 3}
+  - gameObjects:
+    - {fileID: 1615183853355845762, guid: ed3bc67cef1bf38438fbe371c0a49a6e, type: 3}
+    - {fileID: 1951440727908835252, guid: 8265648e0ddcb294188d3920342b1bef, type: 3}
+    - {fileID: 2959318852865051443, guid: c3cf3083696d7e8429356f3bf86cb755, type: 3}
+  - gameObjects:
+    - {fileID: 4718768641461742741, guid: bbb364fb77f3351498b531cc24d7e250, type: 3}
+    - {fileID: 4763941168400466857, guid: d499a30f90da07347a0a8117b2314772, type: 3}
+    - {fileID: 2257725362531212588, guid: dacadc09008c9e144a4711162ddac36c, type: 3}
+  player2:
+  - gameObjects:
+    - {fileID: 2550896778664721128, guid: d6f312c8b9bf0184b9f53ed104af0215, type: 3}
+    - {fileID: 2550896778664721128, guid: a570af05824895d49b69077c40b1627b, type: 3}
+    - {fileID: 5378085999028356962, guid: a233f85b73b6e644f9b7699a63558523, type: 3}
+  - gameObjects:
+    - {fileID: 2636345342741803402, guid: a6fecfc3b813b9f45be1474fde2b383e, type: 3}
+    - {fileID: 1143798492121397782, guid: b31912dc1f9d52d48905ee0eab287c85, type: 3}
+    - {fileID: 947316903753624829, guid: 6a98973322c8c4f48abbc22fc0684712, type: 3}
+  - gameObjects:
+    - {fileID: 5208947490256135445, guid: 6ce3ba498798ac84f802d38eeb0cc655, type: 3}
+    - {fileID: 2913114985158323938, guid: 367a336dedb7e244f8a22e8f122097f2, type: 3}
+    - {fileID: 4157731250490359695, guid: 8a52060d3eca64b4296a8f5843f6db44, type: 3}
+  - gameObjects:
+    - {fileID: 1615183853355845762, guid: db61b260cecd5d04eb073af8a45741af, type: 3}
+    - {fileID: 1951440727908835252, guid: d82158681f2978d45b52d8e5b7449e29, type: 3}
+    - {fileID: 2959318852865051443, guid: 9fdf9037a50ef6741806ffbe15aba855, type: 3}
+  - gameObjects:
+    - {fileID: 4718768641461742741, guid: 4d29d8c951026284e89c23fbc0a2e3b0, type: 3}
+    - {fileID: 4763941168400466857, guid: 11871977ac7a1594b8b542fe4200f7b5, type: 3}
+    - {fileID: 2257725362531212588, guid: 780c89691ff9ab540bd309b0404e1b18, type: 3}

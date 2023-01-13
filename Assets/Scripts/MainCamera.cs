@@ -18,7 +18,7 @@ public class MainCamera : MonoBehaviour
     private void Start()
     { 
         players.Add(GameObject.FindGameObjectWithTag("Player 1").transform);
-        players.Add(GameObject.FindWithTag("Player 2").transform);
+        players.Add(GameObject.FindGameObjectWithTag("Player 2").transform);
     }
     private void LateUpdate()
     {

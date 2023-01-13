@@ -18,6 +18,7 @@ public class ConfirmScene : MonoBehaviour
             SceneManager.LoadScene(scene.buildIndex + 1);
             return;
         }
-        SceneManager.LoadScene(sceneName);
+        PlayerPrefs.SetString("sceneName",sceneName);
+        SceneManager.LoadScene("CharacterSelection");
     }
 }

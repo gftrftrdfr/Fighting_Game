@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditorInternal;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
@@ -8,6 +9,7 @@ public class CharacterMovement : MonoBehaviour
 {
     public CharacterController2D controller;
     public Animator animator;
+    GameObject player;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private TrailRenderer tr;
     [SerializeField] private LayerMask m_WhatIsGround;
@@ -27,76 +29,139 @@ public class CharacterMovement : MonoBehaviour
     private bool isDashing;
     private float dashingPower = 25f;
     private float dashingTime = 0.1f;
-    private float dashCooldown = 1f;
+    private float dashCooldown = 5f;
     private bool isGrounded = false;
     private bool m_FacingRight = true;
     int attackDmg = 20;
 
     private void Start()
     {
-
+        player = this.gameObject;
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        horizontalMove = Input.GetAxisRaw("Horizontal") * walkSpeed;
-        horizontalRun = 0;
-
-        animator.SetFloat("walkSpeed", Mathf.Abs(horizontalMove));
-        animator.SetFloat("runSpeed", Mathf.Abs(horizontalRun));
-
-        if (Input.GetButtonDown("Jump"))
+        if (player.tag == "Player 1")
         {
-            jump = true;
-            animator.SetBool("isJumping", true);
-        }
 
-        if (Input.GetKeyDown(KeyCode.E) && canDash)
-        {
-            StartCoroutine(Dash());
-        }
+            horizontalMove = Input.GetAxisRaw("Horizontal") * walkSpeed;
+            horizontalRun = 0;
 
-        if (isDashing)
-        {
-            animator.SetBool("isSliding", true);
-            return;
-        }
-
-        if ((Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.RightShift)))
-        {
-            horizontalRun = -25f;
+            animator.SetFloat("walkSpeed", Mathf.Abs(horizontalMove));
             animator.SetFloat("runSpeed", Mathf.Abs(horizontalRun));
+
+            if (Input.GetButtonDown("Jump"))
+            {
+                jump = true;
+                animator.SetBool("isJumping", true);
+            }
+
+            if (Input.GetKeyDown(KeyCode.E) && canDash)
+            {
+                StartCoroutine(Dash());
+            }
+
+            if (isDashing)
+            {
+                animator.SetBool("isSliding", true);
+                return;
+            }
+
+            if ((Input.GetAxis("Horizontal") < 0.1) && Input.GetKey(KeyCode.LeftShift))
+            {
+                horizontalRun = -30f;
+                animator.SetFloat("runSpeed", Mathf.Abs(horizontalRun));
+            }
+            if ((Input.GetAxis("Horizontal") > 0.1) && Input.GetKey(KeyCode.LeftShift))
+            {
+                horizontalRun = 30f;
+                animator.SetFloat("runSpeed", Mathf.Abs(horizontalRun));
+            }
+
+            if ((Input.GetButton("Fire1")))
+            {
+                animator.SetBool("isAttacking", true);
+                Attack();
+            }
+
+            if ((Input.GetKeyDown(KeyCode.K)))
+            {
+                animator.SetBool("isDefending", true);
+            }
+
+            if ((Input.GetKey(KeyCode.Alpha1)))
+            {
+                animator.SetBool("isCasting1", true);
+            }
+            if ((Input.GetKey(KeyCode.Alpha2)))
+            {
+                animator.SetBool("isCasting2", true);
+            }
+            if ((Input.GetKey(KeyCode.Alpha3)))
+            {
+                animator.SetBool("isCasting3", true);
+            }
         }
-        if ((Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.RightShift)))
+        else if (player.tag == "Player 2")
         {
-            horizontalRun = 25f;
+            horizontalMove = Input.GetAxisRaw("Horizontal 2") * walkSpeed;
+            horizontalRun = 0;
+
+            animator.SetFloat("walkSpeed", Mathf.Abs(horizontalMove));
             animator.SetFloat("runSpeed", Mathf.Abs(horizontalRun));
-        }
 
-        if ((Input.GetKeyDown(KeyCode.Keypad0)))
-        {
-            animator.SetBool("isAttacking", true);
-            Attack();
-        }
+            if (Input.GetButtonDown("Jump 2"))
+            {
+                jump = true;
+                animator.SetBool("isJumping", true);
+            }
 
-        if ((Input.GetKeyDown(KeyCode.K)))
-        {
-            animator.SetBool("isDefending", true);
-        }
+            if (Input.GetKeyDown(KeyCode.Keypad0) && canDash)
+            {
+                StartCoroutine(Dash());
+            }
 
-        if ((Input.GetKey(KeyCode.Alpha1)))
-        {
-            animator.SetBool("isCasting1", true);
-        }
-        if ((Input.GetKey(KeyCode.Alpha2)))
-        {
-            animator.SetBool("isCasting2", true);
-        }
-        if ((Input.GetKey(KeyCode.Alpha3)))
-        {
-            animator.SetBool("isCasting3", true);
+            if (isDashing)
+            {
+                animator.SetBool("isSliding", true);
+                return;
+            }
+
+            if ((Input.GetAxis("Horizontal 2") < 0.1) && Input.GetKey(KeyCode.RightShift))
+            {
+                horizontalRun = -30f;
+                animator.SetFloat("runSpeed", Mathf.Abs(horizontalRun));
+            }
+            if ((Input.GetAxis("Horizontal 2") > 0.1) && Input.GetKey(KeyCode.RightShift))
+            {
+                horizontalRun = 30f;
+                animator.SetFloat("runSpeed", Mathf.Abs(horizontalRun));
+            }
+
+            if ((Input.GetButton("Fire2")))
+            {
+                animator.SetBool("isAttacking", true);
+                Attack();
+            }
+
+            //if ((Input.GetMouseButton(1)))
+            //{
+            //    animator.SetBool("isDefending", true);
+            //}
+
+            //if ((Input.GetKey(KeyCode.Alpha1)))
+            //{
+            //    animator.SetBool("isCasting1", true);
+            //}
+            //if ((Input.GetKey(KeyCode.Alpha2)))
+            //{
+            //    animator.SetBool("isCasting2", true);
+            //}
+            //if ((Input.GetKey(KeyCode.Alpha3)))
+            //{
+            //    animator.SetBool("isCasting3", true);
+            //}
         }
 
     }
@@ -167,12 +232,12 @@ public class CharacterMovement : MonoBehaviour
         {            
             if (!m_FacingRight)
             {
-                rb.transform.position = new Vector2(rb.position.x, rb.position.y + 0.7f);
+                rb.transform.position = new Vector2(rb.position.x, rb.position.y + 0.5f);
                 rb.velocity = new Vector2(-1 * dashingPower, 0f);
             }
             else 
             {
-                rb.transform.position = new Vector2(rb.position.x, rb.position.y + 0.7f);
+                rb.transform.position = new Vector2(rb.position.x, rb.position.y + 0.5f);
                 rb.velocity = new Vector2(dashingPower, 0f);
             }
         }

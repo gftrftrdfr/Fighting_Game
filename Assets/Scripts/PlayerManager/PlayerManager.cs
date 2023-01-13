@@ -9,7 +9,7 @@ public class PlayerManager : MonoBehaviour
     private int selectedSkinOption2 = 0;
     //public int playerNumber;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         //if (!PlayerPrefs.HasKey("selectedCharacterOption" + playerNumber.ToString())
         //    || !PlayerPrefs.HasKey("selectedSkinOption" + playerNumber.ToString()))

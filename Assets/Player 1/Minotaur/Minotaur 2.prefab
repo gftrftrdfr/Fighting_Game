@@ -971,7 +971,8 @@ GameObject:
   - component: {fileID: 1249456143296877002}
   - component: {fileID: 1249456143296877001}
   - component: {fileID: 4982701446110512979}
-  m_Layer: 3
+  - component: {fileID: 6263878124874419424}
+  m_Layer: 9
   m_Name: Minotaur 2
   m_TagString: Player 1
   m_Icon: {fileID: 0}
@@ -986,7 +987,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4157731250490359695}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7, y: -4.05, z: 0}
+  m_LocalPosition: {x: 11.074747, y: -3.8989594, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -997,7 +998,7 @@ Transform:
   - {fileID: 1249456144514728784}
   - {fileID: 1249456144421459775}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &6762781312253286530
 Animator:
@@ -1066,7 +1067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2161e40fa964114083d9dbbb73ea04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 500
+  m_JumpForce: 600
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
   m_AirControl: 0
@@ -1115,10 +1116,42 @@ MonoBehaviour:
     m_Bits: 119
   m_GroundCheck: {fileID: 1249456144871926648}
   attackPoint: {fileID: 1249456145154463038}
-  attackRange: 1.8
+  attackRange: 2.2
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1024
+  walkSpeed: 9
+  maxHealth: 100
+  currentHealth: 0
+  attackDmg: 20
+  attackSpeed: 1.2
+  armor: 35
+--- !u!61 &6263878124874419424
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4157731250490359695}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 2.1}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.13, y: 4.64}
+  m_EdgeRadius: 0
 --- !u!1 &4544059703162583515
 GameObject:
   m_ObjectHideFlags: 0

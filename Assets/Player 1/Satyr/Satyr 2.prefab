@@ -1363,7 +1363,8 @@ GameObject:
   - component: {fileID: 2959318852865051598}
   - component: {fileID: 2959318852865051597}
   - component: {fileID: 2959318852865051596}
-  m_Layer: 3
+  - component: {fileID: 6947968959597543140}
+  m_Layer: 9
   m_Name: Satyr 2
   m_TagString: Player 1
   m_Icon: {fileID: 0}
@@ -1378,7 +1379,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2959318852865051443}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8733759, y: -4.178055, z: 0}
+  m_LocalPosition: {x: 1.9175487, y: -3.8356972, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1390,7 +1391,7 @@ Transform:
   - {fileID: 2959318851725000680}
   - {fileID: 2959318852446455358}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2959318852865051440
 Animator:
@@ -1468,10 +1469,16 @@ MonoBehaviour:
     m_Bits: 55
   m_GroundCheck: {fileID: 2959318851725000680}
   attackPoint: {fileID: 2959318853088014871}
-  attackRange: 1.52
+  attackRange: 2.5
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1024
+  walkSpeed: 8
+  maxHealth: 100
+  currentHealth: 0
+  attackDmg: 20
+  attackSpeed: 1.2
+  armor: 25
 --- !u!114 &2959318852865051596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1484,7 +1491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2161e40fa964114083d9dbbb73ea04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 500
+  m_JumpForce: 600
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
   m_AirControl: 0
@@ -1512,6 +1519,32 @@ MonoBehaviour:
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!61 &6947968959597543140
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2959318852865051443}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.12, y: 2.7519045}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.75, y: 6.4}
+  m_EdgeRadius: 0
 --- !u!1 &2959318852903835178
 GameObject:
   m_ObjectHideFlags: 0
@@ -1842,7 +1875,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2959318853088014872}
   m_LocalRotation: {x: -0, y: -0, z: -0.00000008940697, w: 1}
-  m_LocalPosition: {x: 1.8590369, y: 1.3495309, z: 0}
+  m_LocalPosition: {x: 1, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1910,8 +1943,8 @@ Transform:
   m_GameObject: {fileID: 2959318853468702962}
   m_LocalRotation: {x: 0, y: 0, z: 0.6922022, w: 0.7217036}
   m_LocalPosition: {x: -0.44, y: -0.62, z: -0.001}
-  m_LocalScale: {x: 2.46, y: 2, z: 2}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 3, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2959318853088014871}
   m_Father: {fileID: 2959318853599520544}

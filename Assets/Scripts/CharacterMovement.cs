@@ -14,6 +14,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private TrailRenderer tr;
     [SerializeField] private LayerMask m_WhatIsGround;
     [SerializeField] private Transform m_GroundCheck;
+    [SerializeField] private GameObject textPopup;
     private Component[] cpn;
     public Transform attackPoint;
     public float attackRange = 0.5f;
@@ -73,11 +74,20 @@ public class CharacterMovement : MonoBehaviour
                 animator.SetBool("isJumping", true);
                 currentStamina -= 25;
 
+            } else if (Input.GetButtonDown("Jump 1") && (currentStamina < 25))
+            {
+                Show("Not enough stamina");
+
             }
 
             if (Input.GetButtonDown("Dash 1") && canDash && (currentStamina >= 50))
             {
                 StartCoroutine(Dash());
+            }
+            else if (Input.GetButtonDown("Dash 1") && (currentStamina < 50))
+            {
+                Show("Not enough stamina");
+
             }
 
             if (isDashing)
@@ -137,10 +147,20 @@ public class CharacterMovement : MonoBehaviour
                 currentStamina -= 25;
 
             }
+            else if (Input.GetButtonDown("Jump 2") && (currentStamina < 25))
+            {
+                Show("Not enough stamina");
+
+            }
 
             if (Input.GetButtonDown("Dash 2") && canDash && (currentStamina >= 50))
             {
                 StartCoroutine(Dash());
+            }
+            else if (Input.GetButtonDown("Dash 2") && (currentStamina < 50))
+            {
+                Show("Not enough stamina");
+
             }
 
             if (isDashing)
@@ -321,6 +341,7 @@ public class CharacterMovement : MonoBehaviour
         currentPower += 17;
         animator.SetTrigger("Hurt");
         currentHealth -= dmg - (dmg * armor/100);
+        Show((dmg - (dmg * armor / 100)).ToString());
 
         if (currentHealth <= 0)
         {
@@ -343,6 +364,16 @@ public class CharacterMovement : MonoBehaviour
         rb.drag = 10f;
         rb.gravityScale = 0f;
         this.enabled = false;
+    }
+
+    void Show(string text)
+    {
+        if(textPopup)
+        {
+            GameObject pbObject = Instantiate(textPopup, transform.position, Quaternion.identity);
+            pbObject.GetComponentInChildren<TMPro.TextMeshPro>().text = text;
+        }
+        
     }
 
 }

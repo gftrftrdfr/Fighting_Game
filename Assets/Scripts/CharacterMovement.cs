@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
-using UnityEditorInternal;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 
@@ -15,6 +14,10 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private LayerMask m_WhatIsGround;
     [SerializeField] private Transform m_GroundCheck;
     [SerializeField] private GameObject textPopup;
+    [SerializeField] private AudioSource attackEffect;
+    [SerializeField] private AudioSource hurtEffect;
+    [SerializeField] private AudioSource jumpEffect;
+    [SerializeField] private AudioSource DieEffect;
     private Component[] cpn;
     public Transform attackPoint;
     public float attackRange = 0.5f;
@@ -74,6 +77,7 @@ public class CharacterMovement : MonoBehaviour
                 jump = true;
                 animator.SetBool("isJumping", true);
                 currentStamina -= 25;
+                jumpEffect.Play();
 
             } else if (Input.GetButtonDown("Jump 1") && (currentStamina < 25))
             {
@@ -116,6 +120,7 @@ public class CharacterMovement : MonoBehaviour
             if ((Input.GetButton("Fire1")) && canAttack)
             {             
                 StartCoroutine(Attack());
+                attackEffect.Play();
             }
 
             if ((Input.GetButton("Defen 1")) && canDefen && currentStamina >= 30)
@@ -155,6 +160,7 @@ public class CharacterMovement : MonoBehaviour
                 jump = true;
                 animator.SetBool("isJumping", true);
                 currentStamina -= 25;
+                jumpEffect.Play();
 
             }
             else if (Input.GetButtonDown("Jump 2") && (currentStamina < 25))
@@ -200,6 +206,7 @@ public class CharacterMovement : MonoBehaviour
             if ((Input.GetButton("Fire2")) && canAttack)
             {
                 StartCoroutine(Attack());
+                attackEffect.Play();
             }
 
             if ((Input.GetButton("Defen 2")) && canDefen && currentStamina >= 30)
@@ -390,6 +397,7 @@ public class CharacterMovement : MonoBehaviour
                 GameObject enemy = GameObject.FindGameObjectWithTag("Player 2");
                 enemy.GetComponent<CharacterMovement>().canNotAttack(0.5f);
             }
+            currentPower += 15;
         }
         else {
             StartCoroutine(canNotAttack(0.2f));
@@ -397,20 +405,29 @@ public class CharacterMovement : MonoBehaviour
             animator.SetTrigger("Hurt");
             currentHealth -= dmg - (dmg * armor / 100);
             Show((dmg - (dmg * armor / 100)).ToString());
-
+            hurtEffect.Play();
 
             if (currentHealth <= 0)
             {
                 currentHealth = 0;
                 Die();
             }
+        }     
+    }
+
+    public void healthSkill()
+    {
+        currentHealth += (int)(0.5 * maxHealth);
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
         }
-        
     }
 
     void Die()
     {
         animator.SetBool("isDead", true);
+        DieEffect.Play();
 
         this.GetComponent<Collider2D>().enabled = false;
 
@@ -424,7 +441,7 @@ public class CharacterMovement : MonoBehaviour
         this.enabled = false;
     }
 
-    void Show(string text)
+    public void Show(string text)
     {
         if(textPopup)
         {

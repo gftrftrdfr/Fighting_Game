@@ -6,9 +6,6 @@ using Random = UnityEngine.Random;
 
 public class FASkill : MonoBehaviour
 {
-    public Transform bulletSpawnPoint;
-    public GameObject bulletPf;
-    public float speed;
 
     GameObject player;
     // Start is called before the first frame update
@@ -22,24 +19,38 @@ public class FASkill : MonoBehaviour
     {
         if (player.tag == "Player 1")
         {
-            if (Input.GetButtonDown("Cast 1") )
+            if (Input.GetButtonDown("Cast 1") && player.GetComponent<CharacterMovement>().currentPower == 100)
             {
-                GameObject enemy = GameObject.FindGameObjectWithTag("Player 2");
-                Skill(enemy);
+                StartCoroutine(Skill());
+                player.GetComponent<CharacterMovement>().currentPower = 0;
             }
-        }else if (player.tag == "Player 2")
-        {
-            if (Input.GetButtonDown("Cast 2"))
+            else if (Input.GetButtonDown("Cast 1") && player.GetComponent<CharacterMovement>().currentPower < 100)
             {
-                GameObject enemy = GameObject.FindGameObjectWithTag("Player 1");
-                Skill(enemy);
+                player.GetComponent<CharacterMovement>().Show("Not enough stamina");
+            }
+        }
+        else if (player.tag == "Player 2")
+        {
+            if (Input.GetButtonDown("Cast 2") && player.GetComponent<CharacterMovement>().currentPower == 100)
+            {
+                StartCoroutine(Skill());
+                player.GetComponent<CharacterMovement>().currentPower = 0;
+            }
+            else if (Input.GetButtonDown("Cast 2") && player.GetComponent<CharacterMovement>().currentPower < 100)
+            {
+                player.GetComponent<CharacterMovement>().Show("Not enough stamina");
             }
         }
     }
 
-    private void Skill(GameObject enemy)
+    private IEnumerator Skill()
     {
-        var bullet = Instantiate(bulletPf, new Vector3(Random.Range(enemy.transform.position.x - 20, enemy.transform.position.x + 20), enemy.transform.position.y + 100), bulletSpawnPoint.rotation);
-        bullet.GetComponent<Rigidbody2D>().velocity = bulletSpawnPoint.up * speed;
+        float tmp1 = player.GetComponent<CharacterMovement>().attackSpeed;
+        int tmp2 = player.GetComponent<CharacterMovement>().attackDmg;
+        player.GetComponent<CharacterMovement>().attackSpeed = tmp1 * 2;
+        player.GetComponent<CharacterMovement>().attackSpeed = tmp2 * 2;
+        yield return new WaitForSeconds(5f);
+        player.GetComponent<CharacterMovement>().attackSpeed = tmp1;
+        player.GetComponent<CharacterMovement>().attackSpeed = tmp2;
     }
 }

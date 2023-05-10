@@ -9,6 +9,7 @@ public class GameOver : MonoBehaviour
     GameObject player2;
     public GameObject gameOver;
     public TMPro.TextMeshProUGUI tmp;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,17 +20,24 @@ public class GameOver : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(player1.GetComponent<CharacterMovement>().currentHealth == 0)
+        if (player1.GetComponent<CharacterMovement>().currentHealth == 0)
         {
-            Time.timeScale = 0.5f;
-            gameOver.SetActive(true);
-            tmp.text = "Player 1 Win!!!";
+            StartCoroutine(ShowOver("Player 1 Win!!!"));
         }
         if (player2.GetComponent<CharacterMovement>().currentHealth == 0)
         {
-            Time.timeScale = 0.5f;
-            gameOver.SetActive(true);
-            tmp.text = "Player 2 Win!!!";
+            StartCoroutine(ShowOver("Player 2 Win!!!"));
         }
     }
+
+    public IEnumerator ShowOver(string txt)
+    {
+        Time.timeScale = 0.5f;
+        yield return new WaitForSeconds(1f);
+        Time.timeScale = 1f;
+        yield return new WaitForSeconds(2f);
+        gameOver.SetActive(true);
+        tmp.text = txt;
+    }
+
 }

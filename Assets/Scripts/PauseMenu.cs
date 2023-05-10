@@ -18,19 +18,19 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 1f;
     }
 
     public void PlayAgain()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(scene.buildIndex, LoadSceneMode.Single);
-        Time.timeScale = 1;
     }
 
     public void Back()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(0, LoadSceneMode.Single);
-        Time.timeScale = 1;
     }
 
 }

@@ -48,5 +48,4 @@ public class PlayerManager : MonoBehaviour
         selectedSkinOption1 = PlayerPrefs.GetInt("selectedSkinOption1");
         selectedSkinOption2 = PlayerPrefs.GetInt("selectedSkinOption2");
     }
-
 }

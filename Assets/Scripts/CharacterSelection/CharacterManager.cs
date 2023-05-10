@@ -6,9 +6,9 @@ public class CharacterManager : MonoBehaviour
 {
     public CharacterDatabase characterDB;
     public TextMeshProUGUI nameText;
-    public Image artworkSprite;
-    private int selectedCharacterOption = 0;
-    private int selectedSkinOption = 0;
+    public GameObject artworkSprite;
+    public int selectedCharacterOption = 0;
+    public int selectedSkinOption = 0;
     public int playerNumber;
 
     void Start()
@@ -23,7 +23,9 @@ public class CharacterManager : MonoBehaviour
         {
             Load();
         }
-        UpdateCharacter(selectedCharacterOption,selectedSkinOption);
+        UpdateCharacter(selectedCharacterOption, selectedSkinOption);
+        //selectedCharacterOption = 0;
+        //selectedSkinOption = 0;
     }
 
     public void NextSkinOption()
@@ -51,25 +53,9 @@ public class CharacterManager : MonoBehaviour
         UpdateCharacter(selectedCharacterOption,selectedSkinOption);
         Save();
     }
-    public void NextCharacterOption()
+    public void CharacterOption(int number)
     {
-        selectedCharacterOption++;
-        if( selectedCharacterOption >= characterDB.CharacterCount)
-        {
-            selectedCharacterOption = 0;
-        }
-        selectedSkinOption = 0;
-        UpdateCharacter(selectedCharacterOption, 0);
-        Save();
-    }
-
-    public void BackCharacterOption()
-    {
-        selectedCharacterOption--;
-        if(selectedCharacterOption < 0)
-        {
-            selectedCharacterOption = characterDB.CharacterCount - 1;
-        }
+        selectedCharacterOption = number;
         selectedSkinOption = 0;
         UpdateCharacter(selectedCharacterOption, 0);
         Save();
@@ -77,9 +63,9 @@ public class CharacterManager : MonoBehaviour
 
     private void UpdateCharacter(int selectedCharacterOption, int selectedSkinOption)
     {
+        Destroy(artworkSprite);
         Character character = characterDB.GetCharacter(selectedCharacterOption);
-        Debug.Log(selectedSkinOption);
-        artworkSprite.sprite = character.characterSprite[selectedSkinOption];
+        artworkSprite = Instantiate(character.characterSprite[selectedSkinOption], this.transform);
         nameText.text = character.characterName;
     }
 
@@ -104,5 +90,9 @@ public class CharacterManager : MonoBehaviour
         UpdateCharacter(selectedCharacterOption, selectedSkinOption);
         SceneManager.LoadScene(scenceName);
         //SceneManager.LoadScene("TestScene");
+    }
+    public void SetPlayerNumber(int number)
+    {
+        playerNumber = number;
     }
 }

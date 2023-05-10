@@ -27,8 +27,7 @@ public class MainCamera : MonoBehaviour
             return;
         }
         Move();
-        Zoom();
-        
+        Zoom();        
     }
 
     private void Zoom()

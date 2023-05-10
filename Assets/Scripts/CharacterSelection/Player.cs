@@ -3,7 +3,7 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     public CharacterDatabase characterDB;
-    public Image artworkSprite;
+    public GameObject artworkSprite;
     private int selectedCharacterOption = 0;
     private int selectedSkinOption = 0;
     public int playerNumber;
@@ -24,8 +24,9 @@ public class Player : MonoBehaviour
     }
     private void UpdateCharacter(int selectedCharacterOption, int selectedSkinOption)
     {
+        Destroy(artworkSprite);
         Character character = characterDB.GetCharacter(selectedCharacterOption);
-        artworkSprite.sprite = character.characterSprite[selectedSkinOption];
+        artworkSprite = Instantiate(character.characterSprite[selectedSkinOption], this.transform);
     }
 
     private void Load()

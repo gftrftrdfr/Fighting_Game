@@ -1,0 +1,1382 @@
+fileFormatVersion: 2
+guid: 2834b6047ad07534eaaa8ae939ed57d2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Windows_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2947
+        width: 1116
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a554ea1f7cbc5b468c1dd65907138fb
+      internalID: -1487850621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_1
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 2947
+        width: 1051
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddc9b40141ac324a8459fa674dca76a
+      internalID: 422112681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_2
+      rect:
+        serializedVersion: 2
+        x: 2364
+        y: 3004
+        width: 1050
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0e6c45ff19d2840af1a455c4679ea1
+      internalID: 1310053073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_3
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 3641
+        width: 718
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04620d8d7406c0b4594575a2c1cc6c73
+      internalID: 129491946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_4
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 3432
+        width: 718
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589ffdd5a6963bd458b48425485503b8
+      internalID: 701809062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_5
+      rect:
+        serializedVersion: 2
+        x: 4230
+        y: 2868
+        width: 638
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ae1c26d4adb6e4daa4f9a417c6cd48
+      internalID: -1093796532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2107
+        width: 557
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e30835ca3d17294e842d677c051668b
+      internalID: 1223549099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_7
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 2107
+        width: 559
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677aa74d7a254454d9e3f852034e0808
+      internalID: 846899848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_8
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 2107
+        width: 509
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db452230dda7b42418696d2e2f5b81d8
+      internalID: 26579075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_9
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2740
+        width: 556
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529d228221632334abaa1acca8baa562
+      internalID: -40406013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_10
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 2312
+        width: 622
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22dc5ef2225fa24096cdd0d421f86e4
+      internalID: 873242426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_11
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 2357
+        width: 622
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb812d2821e8001478630020f80cfdf9
+      internalID: 147265864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_12
+      rect:
+        serializedVersion: 2
+        x: 4185
+        y: 2357
+        width: 622
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82330dce4f95084284c8ffb8765ffb9
+      internalID: 1544788906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_13
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 966
+        width: 672
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cd4b837163b8240825749734023a13
+      internalID: -2072448184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_14
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 966
+        width: 673
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3001ee8e9b8f2441ad6a50d14862467
+      internalID: -1692669042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_15
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 966
+        width: 672
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a41580ba452fb4ca3b210c2e6e2149
+      internalID: 407974561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_16
+      rect:
+        serializedVersion: 2
+        x: 2643
+        y: 1745
+        width: 647
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93917289fb5f214db81accd2ee6ff50
+      internalID: 1260938545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_17
+      rect:
+        serializedVersion: 2
+        x: 3507
+        y: 1758
+        width: 326
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f23efa426d63304bac98a8d43f611e4
+      internalID: 1537434156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_18
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 1023
+        width: 617
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22261423986d7240a22f44a13a7914f
+      internalID: 1921417096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_19
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 1582
+        width: 673
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cbfccbe16b11644aab4c3b135f4524
+      internalID: 2033035080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_20
+      rect:
+        serializedVersion: 2
+        x: 3372
+        y: 1359
+        width: 161
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4930696e9cbdb4d4bb8ca25d5bbb5a69
+      internalID: -787719137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_21
+      rect:
+        serializedVersion: 2
+        x: 3550
+        y: 1390
+        width: 185
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15025149c9c1c8d4b824e417831f2481
+      internalID: -130247562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_22
+      rect:
+        serializedVersion: 2
+        x: 3760
+        y: 1359
+        width: 161
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8417df2e06b90c740b4bdd7d96f692f7
+      internalID: -1456245807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_23
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 1249
+        width: 276
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f042f91eb53f254a9f5b9b227b5fc12
+      internalID: 1784994528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_24
+      rect:
+        serializedVersion: 2
+        x: 4144
+        y: 1166
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3c8861295de3445891d905c9fa08ce
+      internalID: -1351736894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_25
+      rect:
+        serializedVersion: 2
+        x: 4296
+        y: 1166
+        width: 105
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e44a5f86cd710438e3ea0c33593e32
+      internalID: 396730002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_26
+      rect:
+        serializedVersion: 2
+        x: 4432
+        y: 1159
+        width: 119
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a35338c87c5a6b4a9743195137fcba2
+      internalID: -905141464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_27
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 1157
+        width: 195
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d28823e9d782646b420de989f2a84f
+      internalID: 1066964489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_28
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 1147
+        width: 276
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcef04e927ae9e94ca5b35b9f66b1099
+      internalID: -579592270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_29
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 966
+        width: 480
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5842f52aea00a3f4992f2c65f08539c0
+      internalID: 1828866045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_30
+      rect:
+        serializedVersion: 2
+        x: 4166
+        y: 1002
+        width: 126
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047877137b7e5474ea95470e12c68b7c
+      internalID: -1433152320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_31
+      rect:
+        serializedVersion: 2
+        x: 4342
+        y: 1000
+        width: 128
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00f2393d82454e48b04b988daee7dfc
+      internalID: -1427727470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_32
+      rect:
+        serializedVersion: 2
+        x: 4508
+        y: 997
+        width: 135
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60109ff1479dbfa4fad4b1cd6b48744b
+      internalID: 145680783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 748
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26e8143f6846ee4ebf56a5ef23e2585
+      internalID: -242881975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_34
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 73
+        width: 635
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779d95da7c588d7438ff585d62ad601e
+      internalID: 942327669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_35
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 113
+        width: 616
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6509baaf41306a846becc8f9696ca2ac
+      internalID: -850952334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_36
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 793
+        width: 556
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466620f20b81c564aaca1959af815d3d
+      internalID: -938456036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_37
+      rect:
+        serializedVersion: 2
+        x: 3034
+        y: 705
+        width: 338
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274e0036726de524399796a070925ea2
+      internalID: -886873771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_38
+      rect:
+        serializedVersion: 2
+        x: 3403
+        y: 705
+        width: 335
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b531ca1e994af6c4889d6d405e1670e1
+      internalID: 792742763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_39
+      rect:
+        serializedVersion: 2
+        x: 3804
+        y: 705
+        width: 335
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f267999a7b9385742b7337b312af7239
+      internalID: -1326568097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_40
+      rect:
+        serializedVersion: 2
+        x: 4170
+        y: 705
+        width: 338
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9cfe05ae6aa844e9f2602a938209ee
+      internalID: 1163671959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_41
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 213
+        width: 399
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b74be2e74e498449afcd9e3fb527714
+      internalID: -717960379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_42
+      rect:
+        serializedVersion: 2
+        x: 3034
+        y: 553
+        width: 511
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad107021bb9077428cc1eb6f1d64afd
+      internalID: 329384727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_43
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 553
+        width: 511
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7e593b53944de438a747a0767a344a
+      internalID: 1504738702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_44
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 427
+        width: 512
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b329e54eccc3348b9f2b917295672e
+      internalID: -2048913674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_45
+      rect:
+        serializedVersion: 2
+        x: 3034
+        y: 273
+        width: 511
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73c22dd1e83cad4ab4609b8fe2f5529
+      internalID: -1623055197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_46
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 273
+        width: 511
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493f86f7e9791324daf4f8bda30799ac
+      internalID: 2011116361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_47
+      rect:
+        serializedVersion: 2
+        x: 4154
+        y: 346
+        width: 340
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f81983b73484a46be9e3668e8d3295
+      internalID: 1740122923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_48
+      rect:
+        serializedVersion: 2
+        x: 4529
+        y: 346
+        width: 339
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee189d389c4d644409c40216358b67ce
+      internalID: 2035976884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_49
+      rect:
+        serializedVersion: 2
+        x: 4351
+        y: 279
+        width: 340
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31256e6fbb395064388bafdce71fb242
+      internalID: -1433583443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_50
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 0
+        width: 377
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3955d843ff64bd94a846e9c0d64ca08f
+      internalID: -298374121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_51
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 0
+        width: 285
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e346397cb8e654497b80a819fda680
+      internalID: 330174750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_52
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 118
+        width: 513
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c70729e57636d147ac7953416c92a43
+      internalID: 694528658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_53
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 0
+        width: 511
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e000e6682840ea48a8ae46fdbe05a24
+      internalID: 1646917821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows_54
+      rect:
+        serializedVersion: 2
+        x: 4149
+        y: 111
+        width: 511
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04361912253cf9843be92ddb28e45232
+      internalID: 233877127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Windows_6: 1223549099
+      Windows_50: -298374121
+      Windows_34: 942327669
+      Windows_2: 1310053073
+      Windows_22: -1456245807
+      Windows_4: 701809062
+      Windows_8: 26579075
+      Windows_36: -938456036
+      Windows_44: -2048913674
+      Windows_11: 147265864
+      Windows_41: -717960379
+      Windows_39: -1326568097
+      Windows_29: 1828866045
+      Windows_40: 1163671959
+      Windows_20: -787719137
+      Windows_48: 2035976884
+      Windows_1: 422112681
+      Windows_42: 329384727
+      Windows_54: 233877127
+      Windows_23: 1784994528
+      Windows_33: -242881975
+      Windows_3: 129491946
+      Windows_18: 1921417096
+      Windows_46: 2011116361
+      Windows_28: -579592270
+      Windows_21: -130247562
+      Windows_43: 1504738702
+      Windows_19: 2033035080
+      Windows_10: 873242426
+      Windows_27: 1066964489
+      Windows_31: -1427727470
+      Windows_26: -905141464
+      Windows_38: 792742763
+      Windows_16: 1260938545
+      Windows_47: 1740122923
+      Windows_17: 1537434156
+      Windows_25: 396730002
+      Windows_52: 694528658
+      Windows_7: 846899848
+      Windows_49: -1433583443
+      Windows_24: -1351736894
+      Windows_13: -2072448184
+      Windows_53: 1646917821
+      Windows_30: -1433152320
+      Windows_12: 1544788906
+      Windows_51: 330174750
+      Windows_37: -886873771
+      Windows_0: -1487850621
+      Windows_35: -850952334
+      Windows_32: 145680783
+      Windows_9: -40406013
+      Windows_45: -1623055197
+      Windows_15: 407974561
+      Windows_5: -1093796532
+      Windows_14: -1692669042
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -15,26 +15,22 @@ MonoBehaviour:
   characters:
   - characterName: Fallen Angels
     characterSprite:
-    - {fileID: 21300000, guid: 3f458ba4894b70941a245dda8a9b593f, type: 3}
-    - {fileID: 21300000, guid: 21b2994bff46ff44ea0628a74f59f85c, type: 3}
-    - {fileID: 21300000, guid: b9ada515be434354b8ea37dc9f609519, type: 3}
+    - {fileID: 1797753984441286, guid: e59e946fdbabf4342964bc4a9b1fc227, type: 3}
+    - {fileID: 1577502023061052, guid: 438423df18ba0f64ab984b82da4eefee, type: 3}
+    - {fileID: 1143415924545394, guid: ab8efeab60fbd78478cfd01be14f9e55, type: 3}
   - characterName: Golem
     characterSprite:
-    - {fileID: 21300000, guid: 9cc55e6ccde616d47ad2576042f421e7, type: 3}
-    - {fileID: 21300000, guid: e7a2a22f8d815d74aa767a44396dce95, type: 3}
-    - {fileID: 21300000, guid: 7cb86b25f16affb48900d1dd3710a260, type: 3}
+    - {fileID: 7741088904797575670, guid: 019ce89b8bf1ef74b8c696f1e7291e6a, type: 3}
+    - {fileID: 3032672657413112226, guid: 99eec8f99e6b7954999a4fab0afe0541, type: 3}
+    - {fileID: 8420199089779537016, guid: a877f6e8145639549b146b890d708256, type: 3}
   - characterName: Minotaur
     characterSprite:
-    - {fileID: 21300000, guid: 4cc4163eb46ba294b9ed7fa231bd932c, type: 3}
-    - {fileID: 21300000, guid: d618c24ca81b3494cb6924d3596bc5d8, type: 3}
-    - {fileID: 21300000, guid: d52608330a2d1014783a44218e2cf7c5, type: 3}
+    - {fileID: 5040155807486245710, guid: e61aa4c93f853c94d91678393c13fe23, type: 3}
+    - {fileID: 6929233131096232498, guid: d71e57c21ccdd094d9033c68200f0f4f, type: 3}
+    - {fileID: 2946989359822449562, guid: 00226664ad03b32468c07a7888884ca1, type: 3}
   - characterName: Satyr
     characterSprite:
-    - {fileID: 21300000, guid: 96368644a9a9dc44697d2bfdc9ffb087, type: 3}
-    - {fileID: 21300000, guid: e1aac03943a512f44a1ec7c7dd59161b, type: 3}
-    - {fileID: 21300000, guid: aaba666098fbed141919a3af4fefdb9d, type: 3}
+    - {fileID: 5135875943170319000, guid: 3bbbd0035f8edb74b8ddb03bd402d12e, type: 3}
   - characterName: Wraith
     characterSprite:
-    - {fileID: 21300000, guid: dbe2aae8bdac92a4da9693e1ad9989d8, type: 3}
-    - {fileID: 21300000, guid: 7a7c294e99a957d4f9bf80d0951dcc6f, type: 3}
-    - {fileID: 21300000, guid: 99ace9dd06fb9354b9f7246d25c1de0e, type: 3}
+    - {fileID: 3932360563972893228, guid: 123b0e70a037c1547b3560bbd2037af5, type: 3}

@@ -34,7 +34,11 @@ public class CharacterController2D : MonoBehaviour
 
     private void Awake()
     {
-        m_Rigidbody2D = GetComponent<Rigidbody2D>();
+        m_Rigidbody2D = GetComponent<Rigidbody2D>();      
+
+        m_GroundCheck = GetComponent<CharacterMovement>().m_GroundCheck;
+
+        m_CeilingCheck = GetComponent<CharacterMovement>().m_CeilingCheck;
 
         if (OnLandEvent == null)
             OnLandEvent = new UnityEvent();
@@ -45,6 +49,8 @@ public class CharacterController2D : MonoBehaviour
 
     private void FixedUpdate()
     {
+        m_WhatIsGround = GetComponent<CharacterMovement>().m_WhatIsGround;
+
         bool wasGrounded = m_Grounded;
         m_Grounded = false;
 

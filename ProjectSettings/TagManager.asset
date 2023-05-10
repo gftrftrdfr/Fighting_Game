@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Player 1
   - Player 2
+  - Health Bar 1
+  - Health Bar 2
+  - LimitMap
   layers:
   - Default
   - TransparentFX
@@ -18,9 +21,9 @@ TagManager:
   - Camera
   - Player 1
   - Player 2
-  - 
-  - 
-  - 
+  - Land
+  - Tree P1
+  - Tree P2
   - 
   - 
   - 

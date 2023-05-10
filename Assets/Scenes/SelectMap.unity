@@ -220,10 +220,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Select map
+  m_text: SELECT MAP
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 563e4e93a6945b84a97d59011a9e6dae, type: 2}
-  m_sharedMaterial: {fileID: 2610665063760932635, guid: 563e4e93a6945b84a97d59011a9e6dae, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 976ec42ccc2a81b44b5f7d262750f870, type: 2}
+  m_sharedMaterial: {fileID: -2077593632544257464, guid: 976ec42ccc2a81b44b5f7d262750f870, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -253,7 +253,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -778,7 +778,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 273d17d3436f1974b880a5537ba7ca2d, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

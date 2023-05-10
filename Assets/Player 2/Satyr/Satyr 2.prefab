@@ -1444,10 +1444,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 7
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1.8
+  m_GravityScale: 5
   m_Material: {fileID: 6200000, guid: 441c96f8cd545ff4db783286031f0c17, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 0
@@ -1471,8 +1471,9 @@ MonoBehaviour:
   tr: {fileID: 2959318852376680732}
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 2582
   m_GroundCheck: {fileID: 2959318851725000680}
+  m_CeilingCheck: {fileID: 0}
   textPopup: {fileID: 6575448393156316914, guid: 8dd63a0e948e5794592e15912b0ccf64, type: 3}
   attackEffect: {fileID: 0}
   hurtEffect: {fileID: 0}
@@ -1505,13 +1506,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2161e40fa964114083d9dbbb73ea04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 600
+  m_JumpForce: 7000
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
   m_AirControl: 0
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 2582
   m_GroundCheck: {fileID: 2959318851725000680}
   m_CeilingCheck: {fileID: 2959318852446455358}
   m_CrouchDisableCollider: {fileID: 0}
@@ -1955,6 +1956,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 523931e9b03747f49bc5954bd08f50c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldown: 10
+  atkSpeedTime: 3
 --- !u!1 &2959318852903835178
 GameObject:
   m_ObjectHideFlags: 0

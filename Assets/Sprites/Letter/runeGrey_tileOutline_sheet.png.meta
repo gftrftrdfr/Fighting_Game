@@ -1,0 +1,964 @@
+fileFormatVersion: 2
+guid: 2b3393d93476b004bb49fc593db0a015
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0bf70c9e3105743984f696855e02a5
+      internalID: -1357006071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 300
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eced1860f23e33b4abf33dee1934be6b
+      internalID: -592068446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 300
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627a1e0b8f054094b997b508c1a74e80
+      internalID: 2040805981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 300
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f9ef7039f39ed46b2e7505e56848cc
+      internalID: -997413011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 300
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1168d7cfc61894086f096b1432559c
+      internalID: -1413396135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 300
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8eb0a51d2f73db428a2cec5e02dc5f0
+      internalID: -1045416272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9bc6faef621d443a10239b1c97ac7c
+      internalID: 750879796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 240
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6926995973d3398418ca68038a1a7eba
+      internalID: -1619790036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 240
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206ab82a462296c4b92e67502eeb90b9
+      internalID: 930414267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 240
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c2cc77d2fd7714da9b2bfe6bbbf068
+      internalID: 1453112879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 240
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43639a2de6c196341b51f6819390bddc
+      internalID: 2042904558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 240
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f4fde433c20f946ab045a1f268aab1
+      internalID: -952851800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0cc8cde9bab564ca069bc158892016
+      internalID: 828750856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 180
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae80de7c3351c3747b11141a3545dac8
+      internalID: -177001999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 180
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2ca297c23f0c149a25e2728cf8eedf
+      internalID: 458923128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 180
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80eaba0f011a46042a0b698403e898b5
+      internalID: 1519448898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 180
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4b9f4d3f7e8d549b8b308d281d5681
+      internalID: 1216455450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 180
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b538f13ce7d7f4098785c4f145416b
+      internalID: -1998758655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d547176db9d8a4fba4fb7d9176be31
+      internalID: -451285541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 120
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ef5a9815a22674084092405ac4a01f
+      internalID: 1869345762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 120
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f81ff5e893b4446bebd1b78bb57a48
+      internalID: 1080010471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 120
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8981ed04d69b024b8bba2c2e373e4ba
+      internalID: 2039148308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 120
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84871290017e46b4187f4637e8483673
+      internalID: 1265325579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 120
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e3ae86d44898c4c9b7b54d642d0ed5
+      internalID: 1707367753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cdf80dae143a441bec05b52ad39737
+      internalID: -1795201376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 60
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09681275c5214e342ba205fe5a144791
+      internalID: -240047117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 60
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0007e582a1e642c458131dcdf6d2c27b
+      internalID: -472740604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 60
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e59c0e4a1c0cf4784fb16c642ef4d5
+      internalID: 1491773257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 60
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f23a930c2ca344484faf4490852a78
+      internalID: -1979306908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 60
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628a770ef162d4447af08303395c3a93
+      internalID: -882265151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70073ce6e9a4c64dbbe864d00804ffb
+      internalID: 996589221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec52358afcaee5f4e93475d1a0423198
+      internalID: -1659264587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b147377b9d0ec6e46aa6f8775ca5c1c0
+      internalID: 595502349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253d191ce409f7d44b725339c760bb8d
+      internalID: 1770702940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b992ff2e2a00b714c94fab8aef18d6fe
+      internalID: 2124761983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runeGrey_tileOutline_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf3bb32e40c2ca468cd854eb016fe24
+      internalID: 1719838260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      runeGrey_tileOutline_sheet_4: -1413396135
+      runeGrey_tileOutline_sheet_21: 2039148308
+      runeGrey_tileOutline_sheet_26: -472740604
+      runeGrey_tileOutline_sheet_14: 458923128
+      runeGrey_tileOutline_sheet_19: 1869345762
+      runeGrey_tileOutline_sheet_25: -240047117
+      runeGrey_tileOutline_sheet_11: -952851800
+      runeGrey_tileOutline_sheet_12: 828750856
+      runeGrey_tileOutline_sheet_22: 1265325579
+      runeGrey_tileOutline_sheet_24: -1795201376
+      runeGrey_tileOutline_sheet_31: -1659264587
+      runeGrey_tileOutline_sheet_6: 750879796
+      runeGrey_tileOutline_sheet_35: 1719838260
+      runeGrey_tileOutline_sheet_3: -997413011
+      runeGrey_tileOutline_sheet_2: 2040805981
+      runeGrey_tileOutline_sheet_0: -1357006071
+      runeGrey_tileOutline_sheet_1: -592068446
+      runeGrey_tileOutline_sheet_7: -1619790036
+      runeGrey_tileOutline_sheet_28: -1979306908
+      runeGrey_tileOutline_sheet_15: 1519448898
+      runeGrey_tileOutline_sheet_34: 2124761983
+      runeGrey_tileOutline_sheet_27: 1491773257
+      runeGrey_tileOutline_sheet_33: 1770702940
+      runeGrey_tileOutline_sheet_9: 1453112879
+      runeGrey_tileOutline_sheet_29: -882265151
+      runeGrey_tileOutline_sheet_8: 930414267
+      runeGrey_tileOutline_sheet_20: 1080010471
+      runeGrey_tileOutline_sheet_10: 2042904558
+      runeGrey_tileOutline_sheet_23: 1707367753
+      runeGrey_tileOutline_sheet_32: 595502349
+      runeGrey_tileOutline_sheet_18: -451285541
+      runeGrey_tileOutline_sheet_5: -1045416272
+      runeGrey_tileOutline_sheet_13: -177001999
+      runeGrey_tileOutline_sheet_16: 1216455450
+      runeGrey_tileOutline_sheet_17: -1998758655
+      runeGrey_tileOutline_sheet_30: 996589221
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

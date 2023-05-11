@@ -24,8 +24,6 @@ public class CharacterManager : MonoBehaviour
             Load();
         }
         UpdateCharacter(selectedCharacterOption, selectedSkinOption);
-        //selectedCharacterOption = 0;
-        //selectedSkinOption = 0;
     }
 
     public void NextSkinOption()
@@ -36,7 +34,6 @@ public class CharacterManager : MonoBehaviour
         {
             selectedSkinOption = 0;
         }
-
         UpdateCharacter(selectedCharacterOption,selectedSkinOption);
         Save();
 

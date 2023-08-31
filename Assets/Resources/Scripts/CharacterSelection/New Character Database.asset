@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d21a4171d6b03c40b97f3866fd77447, type: 3}
+  m_Name: New Character Database
+  m_EditorClassIdentifier: 
+  characters:
+  - characterName: Fallen Angels
+    characterSprite:
+    - {fileID: 1797753984441286, guid: e59e946fdbabf4342964bc4a9b1fc227, type: 3}
+    - {fileID: 1577502023061052, guid: 438423df18ba0f64ab984b82da4eefee, type: 3}
+    - {fileID: 1143415924545394, guid: ab8efeab60fbd78478cfd01be14f9e55, type: 3}
+  - characterName: Stone Giant
+    characterSprite:
+    - {fileID: 7741088904797575670, guid: 019ce89b8bf1ef74b8c696f1e7291e6a, type: 3}
+    - {fileID: 3032672657413112226, guid: 99eec8f99e6b7954999a4fab0afe0541, type: 3}
+    - {fileID: 8420199089779537016, guid: a877f6e8145639549b146b890d708256, type: 3}
+  - characterName: Minotaur
+    characterSprite:
+    - {fileID: 5040155807486245710, guid: e61aa4c93f853c94d91678393c13fe23, type: 3}
+    - {fileID: 6929233131096232498, guid: d71e57c21ccdd094d9033c68200f0f4f, type: 3}
+    - {fileID: 2946989359822449562, guid: 00226664ad03b32468c07a7888884ca1, type: 3}
+  - characterName: Satyr
+    characterSprite:
+    - {fileID: 5135875943170319000, guid: 3bbbd0035f8edb74b8ddb03bd402d12e, type: 3}
+    - {fileID: 4342735645188456583, guid: 0112b702452232b45a433f8b1a323977, type: 3}
+    - {fileID: 2703155746293639683, guid: c20603ab45e831d42bf662c7d0a9689f, type: 3}
+  - characterName: Wraith
+    characterSprite:
+    - {fileID: 3932360563972893228, guid: 123b0e70a037c1547b3560bbd2037af5, type: 3}
+    - {fileID: 6380683231224949732, guid: c6e8a41545646634bacae128f0fbed58, type: 3}
+    - {fileID: 6560062604734809618, guid: ac177b62f548aba4bbbca221cbbee7e5, type: 3}
+  - characterName: Reaper
+    characterSprite:
+    - {fileID: 1808018432986172, guid: 2d936ca8cfcf8d64ba06f3d8bd183c30, type: 3}
+    - {fileID: 1383231185366278, guid: 21b5304b0986ae54aa725b5ca0d8a326, type: 3}
+    - {fileID: 1026345060812982, guid: 25a7836ee8402f9409d698be9b55590b, type: 3}
+  - characterName: Golem
+    characterSprite:
+    - {fileID: 1632069410589986, guid: fd96c89408de2c944865a800062ab087, type: 3}
+    - {fileID: 1475286338648080, guid: 8db8069ae0754674c8438b689402a2a9, type: 3}
+    - {fileID: 1714274998676182, guid: 6d0265f627f732c4e8c257e2f4bd0ca0, type: 3}

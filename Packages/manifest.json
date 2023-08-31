@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.nobi.roundedcorners": "https://github.com/kirevdokimov/Unity-UI-Rounded-Corners.git",
+    "com.unity.2d.animation": "8.0.4",
+    "com.unity.2d.pixel-perfect": "5.0.2",
+    "com.unity.2d.psdimporter": "7.0.3",
+    "com.unity.2d.sprite": "1.0.0",
+    "com.unity.2d.spriteshape": "8.0.1",
+    "com.unity.2d.tilemap": "1.0.0",
     "com.unity.cinemachine": "2.8.9",
     "com.unity.collab-proxy": "1.17.2",
     "com.unity.feature.2d": "1.0.0",

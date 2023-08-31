@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee7cbed209adca8479f29150be0aac45, type: 3}
+  m_Name: New Player Object DB
+  m_EditorClassIdentifier: 
+  player:
+  - gameObjects:
+    - {fileID: 2550896778664721128, guid: 43588b88943f40447b0b4c20f077b9ed, type: 3}
+    - {fileID: 2550896778664721128, guid: d0058d5633963dd43a7f9a03165f4d2a, type: 3}
+    - {fileID: 2550896778664721128, guid: 10785128a57dfe3409dc787d023d755b, type: 3}
+  - gameObjects:
+    - {fileID: 2636345342741803402, guid: 7f0172b8ddc4f384e9a81c62ef0ea3c1, type: 3}
+    - {fileID: 2636345342741803402, guid: 8ddca681cfb21f54094b353737ef3363, type: 3}
+    - {fileID: 2636345342741803402, guid: 69dc9667beb6a0b47b4ca562551e19ff, type: 3}
+  - gameObjects:
+    - {fileID: 5208947490256135445, guid: 73ac59bd606b08b4ab3b9acce62823e1, type: 3}
+    - {fileID: 5208947490256135445, guid: bc9fce9dd6328c1499397856853b2546, type: 3}
+    - {fileID: 5208947490256135445, guid: 440bc1492d73ce24f852fdff06850eed, type: 3}
+  - gameObjects:
+    - {fileID: 1615183853355845762, guid: ed3bc67cef1bf38438fbe371c0a49a6e, type: 3}
+    - {fileID: 1615183853355845762, guid: a1d4aac2ee43e6541b447455c4c9231e, type: 3}
+    - {fileID: 1615183853355845762, guid: fcf6f1c02b86a304496ee7274afc88e1, type: 3}
+  - gameObjects:
+    - {fileID: 3878100593187170075, guid: cc420ee946459484084aabfae8f6f747, type: 3}
+    - {fileID: 3878100593187170075, guid: e26be16c2daeced418dc4765d8d99674, type: 3}
+    - {fileID: 3878100593187170075, guid: 9212ad246331ab6498c3e4009a65da9f, type: 3}
+  - gameObjects:
+    - {fileID: 2550896778664721128, guid: 56ecafdeac44d6e4e89891c4643324d0, type: 3}
+    - {fileID: 2550896778664721128, guid: ab70c82775b739c4dacc4a4a0f792dc6, type: 3}
+    - {fileID: 2550896778664721128, guid: cdf8239aaf7009c469ba2f7aaf7110cb, type: 3}
+  - gameObjects:
+    - {fileID: 2550896778664721128, guid: dab2d1f9168f3c54ba97c7815f2ce9fd, type: 3}
+    - {fileID: 2550896778664721128, guid: 42dfba75d89696f4b89954dd4f0e9df3, type: 3}
+    - {fileID: 2550896778664721128, guid: c48c7c59fa9ff2a4cbb146f511c2d884, type: 3}

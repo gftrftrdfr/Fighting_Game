@@ -1,0 +1,1272 @@
+fileFormatVersion: 2
+guid: e785e6d9fa542dd469f8e0a7fc5d0898
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 965
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcdd107a88d6fc4bb5026dec0fb5561
+      internalID: -1790944617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 965
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0168eebbc0fa951439aabda4a765f3ff
+      internalID: 1689034313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_2
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 965
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3b1b01c75127d41ab843dde280d24b
+      internalID: 1447836755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_3
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 965
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df38e3900e53904c869daf4ddcd2acb
+      internalID: -92341076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_4
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 965
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bea09ae4aa2344f84e26c039db6f70
+      internalID: 57970939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_5
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 965
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88cd458950f65946bf801eb5f72941f
+      internalID: 680871392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_6
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 965
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a958a65731dfd4e83bb6a6acb86729
+      internalID: -476796310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_7
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 965
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19466ebaf7bf3c54abd525dd9dc92eb8
+      internalID: 1302384985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_8
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 965
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7140adf631d926b4898524f66794d380
+      internalID: -564179530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_9
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 965
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e9830b50cbaf9478dcca9d9c0f5e42
+      internalID: -713579178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 742
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465fe97b722f08542bf45d7a3d6c735d
+      internalID: 148600626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 742
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ef97eb5b1f56c49b3bf0b836d0f9fc
+      internalID: 2099969708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_12
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 742
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca1ee73b8d7eee49ae60e9fd1e9d859
+      internalID: -247546184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_13
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 742
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fcbf8ac361f214baa5befb7f97db74
+      internalID: -1719628507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_14
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 742
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cf49cafeac5884ab298225b4573c77
+      internalID: 61137579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_15
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 742
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9998c7279facd9f4aae7fbb7efedd4f0
+      internalID: -1058188016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_16
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 742
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6515fd389ff93c24d927733b2c1c43e2
+      internalID: 111850220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_17
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 742
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceee45a9875423f4a96b46cc37620695
+      internalID: 1538188581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_18
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 742
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049809d616aba75488e1fe7f4c5b7de0
+      internalID: -115694811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_19
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 742
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf96413a4e01abd41b589fcef77f2729
+      internalID: 1822973993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_20
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 519
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e4695fc9b21d644906be4af6c051fd
+      internalID: -259587064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 519
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fc2d4d8f312a34cb3f118dd04ea05d
+      internalID: 51906992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_22
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 519
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1aa41a958e9c64ab0ca1493368f181
+      internalID: 1694706066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_23
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 519
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91152772cc896ce43a7b19f782ef578a
+      internalID: -2104878474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_24
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 519
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb777047e8b72d46aeb9c9c6cba142f
+      internalID: 937924963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_25
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 519
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18cb81cf4f4b1d42a6c3eae53fa2c56
+      internalID: -816767702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_26
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 519
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996b9b8abbac00246918f18420f2bff8
+      internalID: 448239538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_27
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 519
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e17e0d8abae23f4bb12c420bc82e984
+      internalID: 1270935793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_28
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 519
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b8504950cba1645b7e28c662c8e067
+      internalID: 1464864704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_29
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 519
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3a66e9286643649ae2f259fee4cd23
+      internalID: 1568543531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_30
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 296
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d44c5ae48d044e40a8a0023008aa312
+      internalID: 583898196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 296
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0258859c03771d14d9dca99d1f869e6d
+      internalID: -329896424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_32
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 296
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b667739a9c318a48861c9c243f2750f
+      internalID: 20551192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_33
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 296
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6926d0b5eb19d4644ad003b477dd34b1
+      internalID: 217553475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_34
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 296
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd4ab0e16093974ca4937457c8e5a4a
+      internalID: -1867172089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_35
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 296
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc930064378d13942949ee3dfefbfc2f
+      internalID: -2021380011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_36
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 296
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e81be45e466814d8d70d9d0db13650
+      internalID: 272890117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_37
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 296
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fd9c868b15e3a468e0bd98ba78c443
+      internalID: -1538650782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_38
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 296
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639c04e4b80675b4d8a96b70bab3b04d
+      internalID: 780146727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_39
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 296
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d706d31451cbb4a86d392cff650b48
+      internalID: -164233480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_40
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 73
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da66eef165103547857ecf2a3f4e99d
+      internalID: 1296784945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 73
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d6732fe8ee7a44dbea97a7b15c9805
+      internalID: 1800510206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_42
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 73
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a8fa845edd39049b96ff5aa1c90f19
+      internalID: -401716091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_43
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 73
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0d27bcecb771447985df76eefde033
+      internalID: -864188033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_44
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 73
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54488a8182c03d149a2c350fbc085cd9
+      internalID: 281657799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_45
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 73
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f155b11bcdee88b47ba40ccd135a92fa
+      internalID: 1239500821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_46
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 73
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7034adaf84c40b640aab43955eaa8863
+      internalID: 1980481038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_47
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 73
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b0a5772d69dad468567fe96f465076
+      internalID: -1739915633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_48
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 73
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f8d57e3a5dd544fa4fcbdd0496c3d4
+      internalID: 1618285639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 50-Demon-Skill-Game-Icons2_49
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 73
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd519a84806be134c8e7446e476c5588
+      internalID: -55907325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      50-Demon-Skill-Game-Icons2_43: -864188033
+      50-Demon-Skill-Game-Icons2_11: 2099969708
+      50-Demon-Skill-Game-Icons2_30: 583898196
+      50-Demon-Skill-Game-Icons2_15: -1058188016
+      50-Demon-Skill-Game-Icons2_24: 937924963
+      50-Demon-Skill-Game-Icons2_31: -329896424
+      50-Demon-Skill-Game-Icons2_1: 1689034313
+      50-Demon-Skill-Game-Icons2_21: 51906992
+      50-Demon-Skill-Game-Icons2_26: 448239538
+      50-Demon-Skill-Game-Icons2_36: 272890117
+      50-Demon-Skill-Game-Icons2_25: -816767702
+      50-Demon-Skill-Game-Icons2_14: 61137579
+      50-Demon-Skill-Game-Icons2_20: -259587064
+      50-Demon-Skill-Game-Icons2_33: 217553475
+      50-Demon-Skill-Game-Icons2_5: 680871392
+      50-Demon-Skill-Game-Icons2_48: 1618285639
+      50-Demon-Skill-Game-Icons2_41: 1800510206
+      50-Demon-Skill-Game-Icons2_3: -92341076
+      50-Demon-Skill-Game-Icons2_35: -2021380011
+      50-Demon-Skill-Game-Icons2_28: 1464864704
+      50-Demon-Skill-Game-Icons2_46: 1980481038
+      50-Demon-Skill-Game-Icons2_44: 281657799
+      50-Demon-Skill-Game-Icons2_4: 57970939
+      50-Demon-Skill-Game-Icons2_29: 1568543531
+      50-Demon-Skill-Game-Icons2_9: -713579178
+      50-Demon-Skill-Game-Icons2_47: -1739915633
+      50-Demon-Skill-Game-Icons2_45: 1239500821
+      50-Demon-Skill-Game-Icons2_42: -401716091
+      50-Demon-Skill-Game-Icons2_0: -1790944617
+      50-Demon-Skill-Game-Icons2_16: 111850220
+      50-Demon-Skill-Game-Icons2_23: -2104878474
+      50-Demon-Skill-Game-Icons2_27: 1270935793
+      50-Demon-Skill-Game-Icons2_19: 1822973993
+      50-Demon-Skill-Game-Icons2_38: 780146727
+      50-Demon-Skill-Game-Icons2_40: 1296784945
+      50-Demon-Skill-Game-Icons2_22: 1694706066
+      50-Demon-Skill-Game-Icons2_2: 1447836755
+      50-Demon-Skill-Game-Icons2_12: -247546184
+      50-Demon-Skill-Game-Icons2_34: -1867172089
+      50-Demon-Skill-Game-Icons2_8: -564179530
+      50-Demon-Skill-Game-Icons2_18: -115694811
+      50-Demon-Skill-Game-Icons2_6: -476796310
+      50-Demon-Skill-Game-Icons2_10: 148600626
+      50-Demon-Skill-Game-Icons2_37: -1538650782
+      50-Demon-Skill-Game-Icons2_39: -164233480
+      50-Demon-Skill-Game-Icons2_13: -1719628507
+      50-Demon-Skill-Game-Icons2_49: -55907325
+      50-Demon-Skill-Game-Icons2_17: 1538188581
+      50-Demon-Skill-Game-Icons2_7: 1302384985
+      50-Demon-Skill-Game-Icons2_32: 20551192
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1272 @@
+fileFormatVersion: 2
+guid: 9f3a635aa3f50be489556b111456ac90
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 961
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9eda923c279564a97ae0e9ecd8007d
+      internalID: 1896582373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 961
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b20e72369e3c54db729eccd7b35a28
+      internalID: -323609675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_2
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 961
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a644626b6cedf4246b0fe81bd4741fb9
+      internalID: -220959433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_3
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 961
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d122e011d3a6604288e957cd833ff69
+      internalID: 1438320890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_4
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 961
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9099c12f692a5d4c9c64600cf19f4b6
+      internalID: 364539116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_5
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 961
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4234ac57caf947444b569901b66d2ad1
+      internalID: -1014656297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_6
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 961
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc559ce7c4bc0aa49997cfb939f65f26
+      internalID: 1591777729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_7
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 961
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e0493485f84c8489ce5b14d3af000d
+      internalID: 1017267418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_8
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 961
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f284b723205dd884bb18cc26e68b2ec3
+      internalID: 983836976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_9
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 961
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5656406b100834ebb81cb6216c316f
+      internalID: -459108827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 741
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce5e648e49880148a65cb207d42f7e2
+      internalID: -111149676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_11
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 741
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1993f51cf0640784facd5f2407a0dea2
+      internalID: -372015695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_12
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 741
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e72caca22edc3a43b5857340948df84
+      internalID: 2043783316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_13
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 741
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcb0ac54c6aaff4abb93eb8a1195d1f
+      internalID: 1451640115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_14
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 741
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c19dca1601162240a8a9b11b1cb4c5a
+      internalID: -787955214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_15
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 741
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b4527662f795d478dad259e0e46729
+      internalID: 1225544536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_16
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 741
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12717ebecbd426e458e93e839c4f1e46
+      internalID: -1257682511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_17
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 741
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8348748c0197a2847b41f9bced7c4d25
+      internalID: 638385229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_18
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 741
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d36587e0550b44ab8bd776d92b7661
+      internalID: -782115689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_19
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 741
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2a465bf24e3514fb35a9cc3f2576ec
+      internalID: -1402734309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_20
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 521
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3ab60fdb78a3a49a51da7d15ed17e6
+      internalID: -1827836703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_21
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 521
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0017bc778729640a577edffce51638
+      internalID: -236311203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_22
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 521
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce44995ee9da734282742aac9e78a06
+      internalID: 812279709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_23
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 521
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c004abc9a5d884a8c3dc6adecb5285
+      internalID: 1296648060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_24
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 521
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec67f58c3126ff4ba6a0a532c1100fa
+      internalID: 504215578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_25
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 521
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ae356615f649c4495ffbf0992fd9bb
+      internalID: 271052053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_26
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 521
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27144cd1a04f6aa4fb1593ecdded977d
+      internalID: -1106831058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_27
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 521
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b858991fa5d61da4793ac5a3ea051942
+      internalID: 595868576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_28
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 521
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b813621467155b849b61886d0a3019ed
+      internalID: -1895022260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_29
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 521
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b56c7585ef29544a5b594d94a51633
+      internalID: -1841900358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_30
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 301
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d275dc3ff11d275458e377e4f7accd37
+      internalID: -628092576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_31
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 301
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd401f79ab6fc14cb35776e3d54594d
+      internalID: -351441663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_32
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 301
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e62933b7c39e644877d6e2127bac5f
+      internalID: 172043780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_33
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 301
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f8dcb35ef7c28489a02ca48ee1e591
+      internalID: 682544015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_34
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 301
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852730c8848c57e4c8b095ad2409d346
+      internalID: -1875926642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_35
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 301
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d60dbcd93cc01445b0555c127b053cb
+      internalID: 1160927767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_36
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 301
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545daa2fe90a4634fa5e70ff91f16776
+      internalID: 1178511125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_37
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 301
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac96c2a5ded710d46a25f35605026d70
+      internalID: 2083714513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_38
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 301
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b967db8a6de838f4da10fbd07773d0b1
+      internalID: -318912369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_39
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 301
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c708027ff75d9248bcf17eb8175f3e2
+      internalID: -487877329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_40
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 81
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c98b535c5fda74c9bc678cf2368acd
+      internalID: 738028168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_41
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 81
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591dfb831a2b385408c372f6859a9ef6
+      internalID: -1134305560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_42
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 81
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e7439b784ed524583abca8f4ebc316
+      internalID: -905557344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_43
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 81
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7e98b1f9bf04648bbd939812d405b9
+      internalID: -1019647385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_44
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 81
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8078c730236f464d817976e472fe838
+      internalID: -536808061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_45
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 81
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e68053c12fe864abbcfea0e4eded92
+      internalID: -641746239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_46
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 81
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a4e4f76ce4fa5468c0ada82f2b33c0
+      internalID: 1824338784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_47
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 81
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadb9de6fa4b563418214f685baf3c24
+      internalID: -1831668277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_48
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 81
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e3eee06412f824cad57e676e242647
+      internalID: -405804070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Bard-Skill-Icons2_49
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 81
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23a910b30c133b478165d73d7d12c78
+      internalID: -393263911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RPG-Bard-Skill-Icons2_8: 983836976
+      RPG-Bard-Skill-Icons2_7: 1017267418
+      RPG-Bard-Skill-Icons2_25: 271052053
+      RPG-Bard-Skill-Icons2_49: -393263911
+      RPG-Bard-Skill-Icons2_32: 172043780
+      RPG-Bard-Skill-Icons2_38: -318912369
+      RPG-Bard-Skill-Icons2_30: -628092576
+      RPG-Bard-Skill-Icons2_27: 595868576
+      RPG-Bard-Skill-Icons2_46: 1824338784
+      RPG-Bard-Skill-Icons2_9: -459108827
+      RPG-Bard-Skill-Icons2_17: 638385229
+      RPG-Bard-Skill-Icons2_5: -1014656297
+      RPG-Bard-Skill-Icons2_48: -405804070
+      RPG-Bard-Skill-Icons2_39: -487877329
+      RPG-Bard-Skill-Icons2_42: -905557344
+      RPG-Bard-Skill-Icons2_40: 738028168
+      RPG-Bard-Skill-Icons2_43: -1019647385
+      RPG-Bard-Skill-Icons2_24: 504215578
+      RPG-Bard-Skill-Icons2_26: -1106831058
+      RPG-Bard-Skill-Icons2_3: 1438320890
+      RPG-Bard-Skill-Icons2_4: 364539116
+      RPG-Bard-Skill-Icons2_15: 1225544536
+      RPG-Bard-Skill-Icons2_44: -536808061
+      RPG-Bard-Skill-Icons2_11: -372015695
+      RPG-Bard-Skill-Icons2_12: 2043783316
+      RPG-Bard-Skill-Icons2_13: 1451640115
+      RPG-Bard-Skill-Icons2_14: -787955214
+      RPG-Bard-Skill-Icons2_10: -111149676
+      RPG-Bard-Skill-Icons2_45: -641746239
+      RPG-Bard-Skill-Icons2_0: 1896582373
+      RPG-Bard-Skill-Icons2_23: 1296648060
+      RPG-Bard-Skill-Icons2_1: -323609675
+      RPG-Bard-Skill-Icons2_29: -1841900358
+      RPG-Bard-Skill-Icons2_19: -1402734309
+      RPG-Bard-Skill-Icons2_41: -1134305560
+      RPG-Bard-Skill-Icons2_16: -1257682511
+      RPG-Bard-Skill-Icons2_18: -782115689
+      RPG-Bard-Skill-Icons2_28: -1895022260
+      RPG-Bard-Skill-Icons2_21: -236311203
+      RPG-Bard-Skill-Icons2_37: 2083714513
+      RPG-Bard-Skill-Icons2_20: -1827836703
+      RPG-Bard-Skill-Icons2_2: -220959433
+      RPG-Bard-Skill-Icons2_33: 682544015
+      RPG-Bard-Skill-Icons2_31: -351441663
+      RPG-Bard-Skill-Icons2_36: 1178511125
+      RPG-Bard-Skill-Icons2_47: -1831668277
+      RPG-Bard-Skill-Icons2_6: 1591777729
+      RPG-Bard-Skill-Icons2_35: 1160927767
+      RPG-Bard-Skill-Icons2_22: 812279709
+      RPG-Bard-Skill-Icons2_34: -1875926642
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

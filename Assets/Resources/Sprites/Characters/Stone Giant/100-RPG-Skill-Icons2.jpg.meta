@@ -1,0 +1,1272 @@
+fileFormatVersion: 2
+guid: 8d52a603ff42fc24e906f2f9ffb508a7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 732
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805d7f00758fe764fa4f603039906570
+      internalID: 913924351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 732
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7e0173cc5e6a647ac21656308d2fb8
+      internalID: 1090067749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 732
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a56bd7befa8c0d468b14b29b3fdd294
+      internalID: -1627928347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_3
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 732
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849211371bf0d1540a4412d3c4110fea
+      internalID: 1383057645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_4
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 732
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d3552f6fe7505449dbaea025b56a35
+      internalID: 319946086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_5
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 732
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83039f01ef627af4f8ee0fa963f82f53
+      internalID: 1626994011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_6
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 732
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bfd147099c462489aa168753ee8a53
+      internalID: 311289870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_7
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 732
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fc66811bd320843a9319a74b302af6
+      internalID: 1369965399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_8
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 732
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd0d3586f8e7a5408bdb91498bd12dd
+      internalID: -948138621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_9
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 732
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62effcd0bb9498345b378cd983b61756
+      internalID: 1109860652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 574
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2fe33769f097045854b332901a3dd2
+      internalID: -789663819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 574
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e19e9e448e8f3439188f263daa9618
+      internalID: 670232173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 574
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7be2485b1fadd409bc483d265e52af
+      internalID: 2145737667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_13
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 574
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d951a5b3d303c45998bcb0a4d7f101
+      internalID: -1118814413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_14
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 574
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54794752411dd634aae693e39c035872
+      internalID: -1817895754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_15
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 574
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97ea0c996db3934faaa3fc066fbb274
+      internalID: -213302928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_16
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 574
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9999aed81f38a1148a42d8d8d8286584
+      internalID: 1449085841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_17
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 574
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcd855dbb8d9c243a3fa3986d0a97f7
+      internalID: 1561086359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_18
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 574
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfee741010d3284da866874270ef424
+      internalID: -1271039036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_19
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 574
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e6cb45f8ad0ba45a6b05c827f17a55
+      internalID: -391100160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c115e22b94dc94f4a98b05ffc02cf949
+      internalID: -146596557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_21
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f87f11edacd5547af2454c6a6d65f5
+      internalID: 1111499546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_22
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7ba9f2a7414da4dbda5b3621e8e249
+      internalID: 988883972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_23
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cfa3c805f604e46890e63715508eb9
+      internalID: -33953736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_24
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd8871f68805634aa533f6077006848
+      internalID: 450157477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_25
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999e8518860a70e4dbaf6c49ed8113db
+      internalID: -94262214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_26
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47651bb80ad88944aef8d86632524db
+      internalID: -201585962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_27
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b251bbb7fb3b4aa48975ed3bba4d74b4
+      internalID: -1187052029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_28
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d0e5683d0f8554d80c8e4a738d20bb
+      internalID: 171006284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_29
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 416
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98ee438702d140438c4bea254f09b2b
+      internalID: 1978457246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_30
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 258
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9d6839b6b8b09448ead0d0dbba28fb
+      internalID: -965708865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 258
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8273d005c3112ce409b439454bf6a32f
+      internalID: -454207472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_32
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 258
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d930247af6272fc4f90671ef47bb23a7
+      internalID: 1910731129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_33
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 258
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f0897bfc933a34dbcb13273a5b4a9b
+      internalID: -955010240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_34
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 258
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e241c9a1988fa354184556ab00683516
+      internalID: -156281558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_35
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 258
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70728b6522d362647aad0b7112206af6
+      internalID: -1088500805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_36
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 258
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264159ca73127d044b9bcfde842bac94
+      internalID: 1451760753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_37
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 258
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcf9dbe31bd12149bcd888d04ecf0bd
+      internalID: -1277623966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_38
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 258
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb7fd84e1dd4084188d913ac8c548e8
+      internalID: -452260720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_39
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 258
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6667e04762bb34286a7caf4dcac1c0
+      internalID: -1133260630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 100
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a831c56508a2c4e4b9e70f26100e6402
+      internalID: 516903820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_41
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 100
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89123d34b6b3e2d4cb8cd2ea84454c49
+      internalID: 1480208839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_42
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 100
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e954e82c6d0a9a4387b568f8d2a9efc
+      internalID: 154930806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_43
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 100
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8f7e6893567d7479808b85a33918b6
+      internalID: -1256464566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_44
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 100
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec8ab7df892f924c9dee3cf1079223b
+      internalID: -561410901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_45
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 100
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7e35e64a56a4347927841613ae8f4b
+      internalID: 687525100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_46
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 100
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7525e88ffdbc8b842931dd0bc744128d
+      internalID: 2055076802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_47
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 100
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4efc9acc45fcb459bd4f24c3fe2c08
+      internalID: 1354034086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_48
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 100
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33c295c01e212b46b96e4be02e7dc49
+      internalID: 1575364424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100-RPG-Skill-Icons2_49
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 100
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592e1af49f47a2349ae2d7139c9dd159
+      internalID: 1175170468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      100-RPG-Skill-Icons2_36: 1451760753
+      100-RPG-Skill-Icons2_19: -391100160
+      100-RPG-Skill-Icons2_24: 450157477
+      100-RPG-Skill-Icons2_3: 1383057645
+      100-RPG-Skill-Icons2_8: -948138621
+      100-RPG-Skill-Icons2_27: -1187052029
+      100-RPG-Skill-Icons2_41: 1480208839
+      100-RPG-Skill-Icons2_26: -201585962
+      100-RPG-Skill-Icons2_29: 1978457246
+      100-RPG-Skill-Icons2_42: 154930806
+      100-RPG-Skill-Icons2_23: -33953736
+      100-RPG-Skill-Icons2_13: -1118814413
+      100-RPG-Skill-Icons2_7: 1369965399
+      100-RPG-Skill-Icons2_31: -454207472
+      100-RPG-Skill-Icons2_20: -146596557
+      100-RPG-Skill-Icons2_32: 1910731129
+      100-RPG-Skill-Icons2_47: 1354034086
+      100-RPG-Skill-Icons2_25: -94262214
+      100-RPG-Skill-Icons2_30: -965708865
+      100-RPG-Skill-Icons2_17: 1561086359
+      100-RPG-Skill-Icons2_9: 1109860652
+      100-RPG-Skill-Icons2_1: 1090067749
+      100-RPG-Skill-Icons2_28: 171006284
+      100-RPG-Skill-Icons2_38: -452260720
+      100-RPG-Skill-Icons2_46: 2055076802
+      100-RPG-Skill-Icons2_4: 319946086
+      100-RPG-Skill-Icons2_0: 913924351
+      100-RPG-Skill-Icons2_35: -1088500805
+      100-RPG-Skill-Icons2_21: 1111499546
+      100-RPG-Skill-Icons2_10: -789663819
+      100-RPG-Skill-Icons2_40: 516903820
+      100-RPG-Skill-Icons2_6: 311289870
+      100-RPG-Skill-Icons2_39: -1133260630
+      100-RPG-Skill-Icons2_45: 687525100
+      100-RPG-Skill-Icons2_2: -1627928347
+      100-RPG-Skill-Icons2_48: 1575364424
+      100-RPG-Skill-Icons2_22: 988883972
+      100-RPG-Skill-Icons2_33: -955010240
+      100-RPG-Skill-Icons2_44: -561410901
+      100-RPG-Skill-Icons2_49: 1175170468
+      100-RPG-Skill-Icons2_16: 1449085841
+      100-RPG-Skill-Icons2_5: 1626994011
+      100-RPG-Skill-Icons2_18: -1271039036
+      100-RPG-Skill-Icons2_12: 2145737667
+      100-RPG-Skill-Icons2_14: -1817895754
+      100-RPG-Skill-Icons2_34: -156281558
+      100-RPG-Skill-Icons2_43: -1256464566
+      100-RPG-Skill-Icons2_11: 670232173
+      100-RPG-Skill-Icons2_37: -1277623966
+      100-RPG-Skill-Icons2_15: -213302928
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

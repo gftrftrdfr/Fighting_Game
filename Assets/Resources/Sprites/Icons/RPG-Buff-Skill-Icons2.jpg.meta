@@ -1,0 +1,1272 @@
+fileFormatVersion: 2
+guid: 7a07f620a7340a8409981568332eaead
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 962
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72ac9ebcb46a4549b1705a8a8336d10
+      internalID: -189278030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 962
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7802eb51d086042bdc9a6b54d7d398
+      internalID: 1731270405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_2
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 962
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe4b4ded30eefd47a5d3c589fc558e2
+      internalID: -554364757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_3
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 962
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03491f93fbb9a9447a7c53b29a01e49b
+      internalID: 1457348605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_4
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 962
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda39030092ff084aa3990bd05bb5989
+      internalID: -520709964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_5
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 962
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e945c96d10d57d149850cd3022a9581e
+      internalID: -1886862328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_6
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 962
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc8bbcd189edc84bab16df4a85d5210
+      internalID: 1898538178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_7
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 962
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c547fa2e87bc7504289e2e459344112c
+      internalID: -690281289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_8
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 962
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454fc11853a435b4598355819ce1be41
+      internalID: -1136810687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_9
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 962
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d924f5568506ceb46a24dd2f9df842df
+      internalID: 1000993366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 740
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7690ecc221c18b04ba82fb7aef904bcf
+      internalID: -1449116328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 740
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a78db3ff138c344e84763bfe2a989c9
+      internalID: 607871951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_12
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 740
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dae835128cebe04392a61669a078ba8
+      internalID: 1285085196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_13
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 740
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f649389c539eaa489258fda0ff0bc49
+      internalID: -327264628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_14
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 740
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583d5bd602537a749995444870815098
+      internalID: -966732445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_15
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 740
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b234b3c65b6c434eb73e08ea7e227f0
+      internalID: 1754276923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_16
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 740
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f0f026be9c76940b328e49b4705961
+      internalID: 1809890335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_17
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 740
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c818b63e90d244f98c2afdc3686b55
+      internalID: -1869060770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_18
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 740
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a887f43013827e46a7c2947fccfe90b
+      internalID: -358064369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_19
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 740
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2add2aea30dd194981be8aa4e18585d
+      internalID: -1730984683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_20
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 518
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4baeb3e9c277b4186fd5ffa3bfeb2a
+      internalID: -1703889483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 518
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62e034448ec6e44cb817292038785e9
+      internalID: 1958309850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_22
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 518
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ec6e031f8ea7e449c6e91de19c8910
+      internalID: -17851016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_23
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 518
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7f2664675777f4194645cc85ee3747
+      internalID: -386928633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_24
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 518
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1064e9c4b1b0c543bbf618645b670a6
+      internalID: 1015077116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_25
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 518
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4844afa612eebfc4891234186a7630a3
+      internalID: -1032345645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_26
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 518
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737f84820f7aac347b76057f255cd644
+      internalID: -955790342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_27
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 518
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8991cd95b9c3291478556ab498840470
+      internalID: 30166089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_28
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 518
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519be87b427137d43846b91154aa2011
+      internalID: 1508692431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_29
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 518
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccca4492ef312845af4c75ae8eb2530
+      internalID: -881940367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_30
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 296
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5190839ec2505a47a277f2aef7586f6
+      internalID: -1929442063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 296
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8d3622c39c5304fb3f81a16873a46a
+      internalID: 770187982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_32
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 296
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9a33775584e394b995d1b385380c19
+      internalID: -554275236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_33
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 296
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aea482474eea284d9c4e5e7f77de983
+      internalID: 1502268340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_34
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 296
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62b1e4028425ca4184ade1d45e38fd1
+      internalID: 2089402297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_35
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 296
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b247ce3d10fb07a49ae9953251e85a12
+      internalID: -1209159962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_36
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 296
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab43293c62c0ec84cb80a74c9f2d2204
+      internalID: -224958367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_37
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 296
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b959303fa6d6b143b85a3137599b53f
+      internalID: 232976786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_38
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 296
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5279d8e322565384b9fb5dfda44e3325
+      internalID: 668265222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_39
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 296
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c3a724e6f021c4ba194cd3e5d3134b
+      internalID: 1401065033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_40
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 74
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffc74d04a33bea47af4280c40ca840c
+      internalID: 1311114175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 74
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f8eddb8077b704584d4078317953d6
+      internalID: 139100407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_42
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 74
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0957b3ddb4106e447a0c3f48292404fe
+      internalID: -1587197302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_43
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 74
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba6c4006b789b24d8dff462fd2cf6e1
+      internalID: 866409086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_44
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 74
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548b3be259a06584b8f3ac67ab2f61a8
+      internalID: 906038009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_45
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 74
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c80230905f71a740b11c402b5e09530
+      internalID: -1560443770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_46
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 74
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adc2f0bbca9e2a4c95f30f0316b06f5
+      internalID: -1115388397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_47
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 74
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3451b344de011a46ba33ade70af3359
+      internalID: -164954639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_48
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 74
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d27e0c7db7ce1545ad422a9ee15a608
+      internalID: 1385104570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RPG-Buff-Skill-Icons2_49
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 74
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7cfdc3d3e76884fbd3cba736d90ac1
+      internalID: 1676265302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RPG-Buff-Skill-Icons2_23: -386928633
+      RPG-Buff-Skill-Icons2_7: -690281289
+      RPG-Buff-Skill-Icons2_36: -224958367
+      RPG-Buff-Skill-Icons2_10: -1449116328
+      RPG-Buff-Skill-Icons2_22: -17851016
+      RPG-Buff-Skill-Icons2_20: -1703889483
+      RPG-Buff-Skill-Icons2_30: -1929442063
+      RPG-Buff-Skill-Icons2_12: 1285085196
+      RPG-Buff-Skill-Icons2_46: -1115388397
+      RPG-Buff-Skill-Icons2_8: -1136810687
+      RPG-Buff-Skill-Icons2_43: 866409086
+      RPG-Buff-Skill-Icons2_35: -1209159962
+      RPG-Buff-Skill-Icons2_26: -955790342
+      RPG-Buff-Skill-Icons2_29: -881940367
+      RPG-Buff-Skill-Icons2_16: 1809890335
+      RPG-Buff-Skill-Icons2_48: 1385104570
+      RPG-Buff-Skill-Icons2_3: 1457348605
+      RPG-Buff-Skill-Icons2_33: 1502268340
+      RPG-Buff-Skill-Icons2_40: 1311114175
+      RPG-Buff-Skill-Icons2_47: -164954639
+      RPG-Buff-Skill-Icons2_41: 139100407
+      RPG-Buff-Skill-Icons2_32: -554275236
+      RPG-Buff-Skill-Icons2_37: 232976786
+      RPG-Buff-Skill-Icons2_2: -554364757
+      RPG-Buff-Skill-Icons2_17: -1869060770
+      RPG-Buff-Skill-Icons2_14: -966732445
+      RPG-Buff-Skill-Icons2_1: 1731270405
+      RPG-Buff-Skill-Icons2_24: 1015077116
+      RPG-Buff-Skill-Icons2_31: 770187982
+      RPG-Buff-Skill-Icons2_15: 1754276923
+      RPG-Buff-Skill-Icons2_5: -1886862328
+      RPG-Buff-Skill-Icons2_42: -1587197302
+      RPG-Buff-Skill-Icons2_13: -327264628
+      RPG-Buff-Skill-Icons2_18: -358064369
+      RPG-Buff-Skill-Icons2_27: 30166089
+      RPG-Buff-Skill-Icons2_28: 1508692431
+      RPG-Buff-Skill-Icons2_9: 1000993366
+      RPG-Buff-Skill-Icons2_44: 906038009
+      RPG-Buff-Skill-Icons2_49: 1676265302
+      RPG-Buff-Skill-Icons2_6: 1898538178
+      RPG-Buff-Skill-Icons2_11: 607871951
+      RPG-Buff-Skill-Icons2_21: 1958309850
+      RPG-Buff-Skill-Icons2_25: -1032345645
+      RPG-Buff-Skill-Icons2_4: -520709964
+      RPG-Buff-Skill-Icons2_38: 668265222
+      RPG-Buff-Skill-Icons2_19: -1730984683
+      RPG-Buff-Skill-Icons2_45: -1560443770
+      RPG-Buff-Skill-Icons2_39: 1401065033
+      RPG-Buff-Skill-Icons2_34: 2089402297
+      RPG-Buff-Skill-Icons2_0: -189278030
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

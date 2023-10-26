@@ -8,8 +8,9 @@ using UnityEngine.UIElements;
 public class TreeController : MonoBehaviour
 {
     [SerializeField] private GameObject healEffect;
-
+    public int heal;
     Animator animator;
+    float time = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,21 +26,44 @@ public class TreeController : MonoBehaviour
         
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (this.tag == "Player 1 Skill")
+        if (tag == "Player 1 Skill")
         {
             if (collision.tag == "Player 1")
             {
-                collision.GetComponent<CharacterController>().healthSkill(40);
+                time = 0;
             }
         }
-        else if (this.tag == "Player 2 Skill")
+        else if (tag == "Player 2 Skill")
         {
             if (collision.tag == "Player 2")
             {
-                collision.GetComponent<CharacterController>().healthSkill(40);
+                time = 0;
             }
         }
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        time += Time.deltaTime;
+        if(time > 1)
+        {
+            if (tag == "Player 1 Skill")
+            {
+                if (collision.tag == "Player 1")
+                {
+                    StartCoroutine(collision.GetComponent<CharacterController>().HealthSkill(100,1));
+                }
+            }
+            else if (tag == "Player 2 Skill")
+            {
+                if (collision.tag == "Player 2")
+                {
+                    StartCoroutine(collision.GetComponent<CharacterController>().HealthSkill(100, 1));
+                }
+            }
+            time = 0;
+        }
+        
     }
 }

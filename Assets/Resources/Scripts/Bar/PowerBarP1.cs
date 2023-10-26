@@ -10,6 +10,9 @@ public class PowerBarP1 : MonoBehaviour
     public List<Image> fills;
     public int maxPower;
     public int currentPower;
+
+    public GameObject firePowEffect1;
+    public GameObject firePowEffect2;
     private float lerpSpeed;
 
     GameObject player;
@@ -30,25 +33,48 @@ public class PowerBarP1 : MonoBehaviour
     {
         currentPower = player.GetComponent<CharacterController>().currentPower;
         lerpSpeed = 3f * Time.deltaTime;
-        SetCurrentPower();
-        
+        SetCurrentPower();  
+        if(currentPower >= 100)
+        {
+            firePowEffect1.SetActive(true);
+            firePowEffect2.SetActive(true);
+        }
+        else
+        {
+            firePowEffect1.SetActive(false);
+            firePowEffect2.SetActive(false);
+        }
     }
 
     public void SetCurrentPower()
     {
-        
-        for (int i = 0; i < fills.Count; i++)
+        Color PowerColor = Color.Lerp(new Color(1f, 1f, 1f, 1f), new Color(1f, 0f, 0f, 1f), (float)currentPower / (maxPower * 10));
+        if (currentPower < 100)
         {
-            if (currentPower / 10 > (float)i )
+            fills[(int)(currentPower / maxPower)].fillAmount = Mathf.Lerp(fills[(int)(currentPower / maxPower)].fillAmount, (float)(currentPower % maxPower) / 10, lerpSpeed);
+            fills[(int)(currentPower / maxPower)].color = PowerColor;
+            if ((int)(currentPower / maxPower) > 0)
             {
-                fills[i].fillAmount = Mathf.Lerp(fills[i].fillAmount, 1, lerpSpeed);
-                Color PowerColor = Color.Lerp(new Color(1f, 1f, 1f, 1f), new Color(1f, 0f, 0f, 1f), (float)currentPower / (maxPower * 10));
-                fills[i].color = PowerColor;
-
+                for (int i = 0; i < (int)(currentPower / maxPower); i++)
+                {
+                    fills[i].fillAmount = Mathf.Lerp(fills[i].fillAmount, 1, lerpSpeed);
+                    fills[(int)(currentPower / maxPower) - 1].color = PowerColor;
+                }
             }
-            if(currentPower == 0)
+        }
+        else
+        {
+            foreach (Image fill in fills)
             {
-                fills[i].fillAmount = 0;
+                fill.fillAmount = 1;
+                fill.color = PowerColor;
+            }
+        }
+        if (currentPower == 0)
+        {
+            foreach (Image fill in fills)
+            {
+                fill.fillAmount = 0;
             }
         }
     }

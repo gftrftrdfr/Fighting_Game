@@ -14,6 +14,8 @@ public class RockController : MonoBehaviour
 
     [SerializeField] private GameObject showEffect;
     [SerializeField] private GameObject runEffect;
+
+    public int damage;
     // Start is called before the first frame update
     void Start()
     {
@@ -60,7 +62,7 @@ public class RockController : MonoBehaviour
             {
                 if (collision.gameObject.tag == "Player 2")
                 {
-                    collision.gameObject.GetComponent<CharacterController>().TakeDamage(150);
+                    collision.gameObject.GetComponent<CharacterController>().TakeDamage(damage);
                     collision.gameObject.GetComponent<CharacterController>().Stun(1f, 0, collision.gameObject.GetComponent<Rigidbody2D>().mass * 100);
                     check = true;
                     canDame = false;
@@ -70,7 +72,7 @@ public class RockController : MonoBehaviour
             {
                 if (collision.gameObject.tag == "Player 1")
                 {
-                    collision.gameObject.GetComponent<CharacterController>().TakeDamage(150);
+                    collision.gameObject.GetComponent<CharacterController>().TakeDamage(damage);
                     collision.gameObject.GetComponent<CharacterController>().Stun(1f, 0, collision.gameObject.GetComponent<Rigidbody2D>().mass * 100);
                     check = true;
                     canDame = false;

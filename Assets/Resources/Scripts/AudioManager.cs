@@ -6,23 +6,27 @@ using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
+    public static AudioManager Instance { get; private set; }
     static AudioManager instance;
-
-    // Drag in the .mp3 files here, in the editor
-    public AudioClip[] BGM;
 
     public AudioSource BGMSource, SFXSource;
 
     // Singelton to keep instance alive through all scenes
     void Awake()
     {
-        if (instance == null) { instance = this; }
-        else { Destroy(gameObject); }
+        AudioManager[] audioManagers = FindObjectsOfType<AudioManager>();
 
-        DontDestroyOnLoad(gameObject);
+        foreach (AudioManager audioManager in audioManagers)
+        {
+            if (audioManager != this)
+            {
+                Destroy(audioManager.gameObject);
+            }
+        }
 
-        // Hooks up the 'OnSceneLoaded' method to the sceneLoaded event
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        Instance = this;
+
+        DontDestroyOnLoad(transform.root.gameObject);
     }
 
     // Called whenever a scene is loaded
@@ -33,47 +37,40 @@ public class AudioManager : MonoBehaviour
         {
             case "Menu":
                 System.Random rnd = new System.Random();
-                BGMSource.enabled = false;
-                BGMSource.clip = BGM[rnd.Next(1,5)];
-                BGMSource.enabled = true;
-                break;
-            case "SelectMap":
-                BGMSource.enabled = false;
-                BGMSource.clip = BGM[7];
-                BGMSource.enabled = true;
-                break;
-            case "CharacterSelection":
-                BGMSource.enabled = false;
-                BGMSource.clip = BGM[8];
-                BGMSource.enabled = true;
-                break;
-            case "Halloween":
-                BGMSource.enabled = false;
-                BGMSource.clip = BGM[9];
-                BGMSource.enabled = true;
-                break;
-            case "Fairy":
-                BGMSource.enabled = false;
-                BGMSource.clip = BGM[10];
-                BGMSource.enabled = true;
-                break;
-            case "Desert":
-                BGMSource.enabled = false;
-                BGMSource.clip = BGM[11];
-                BGMSource.enabled = true;
+                PlayBGM("Menu" + rnd.Next(1, 5));
                 break;
             default:
-                BGMSource.enabled = false;
-                BGMSource.clip = BGM[0];
-                BGMSource.enabled = true;
+                PlayBGM(scene.name);
                 break;
         }
     }
-    // Start is called before the first frame update
-
-    public void PlaySFX(string champName,string soundName)
+    private void OnEnable()
     {
-        AudioClip sfx = Resources.Load<AudioClip>($"{champName}/SFX/{soundName}");
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+    public void PlayBGM(string soundName)
+    {
+        AudioClip bgm = Resources.Load<AudioClip>($"Audio/BGM/{soundName}");
+        if (bgm == null)
+        {
+            BGMSource.Stop();
+        }
+        else
+        {
+            BGMSource.loop = true;
+            BGMSource.clip = bgm;
+            BGMSource.Play();
+        }
+
+    }
+
+    public void PlaySFX (string champName,string soundName)
+    {
+        AudioClip sfx = Resources.Load<AudioClip>($"Audio/SFX/Characters/{champName}/{soundName}");
         if (sfx == null)
         {
 
@@ -82,6 +79,20 @@ public class AudioManager : MonoBehaviour
         {
             Debug.Log($"{champName}/SFX/{soundName}");
             //SFXSource.PlayOneShot(sfx);
+        }
+
+    }
+    public void PlaySFX(string soundName)
+    {
+        AudioClip sfx = Resources.Load<AudioClip>($"Audio/SFX/UI/{soundName}");
+        if (sfx == null)
+        {
+
+        }
+        else
+        {
+            
+            SFXSource.PlayOneShot(sfx);
         }
 
     }

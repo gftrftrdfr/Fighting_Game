@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CharacterChoicing : MonoBehaviour
@@ -8,7 +9,7 @@ public class CharacterChoicing : MonoBehaviour
     public GameObject characterSelection;
     public Button buttonReady;
     int selectedCharacterOption;
-    bool chooseSkin = false;
+    public bool chooseSkin = false;
     public bool ready = false;
     public int temp = 1;
     public CharacterDatabase characterDB;
@@ -19,7 +20,6 @@ public class CharacterChoicing : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.localPosition = new Vector3(-3.03f, 1.92f, 0f);
         selectedCharacterOption = characterSelection.GetComponent<CharacterManager>().selectedCharacterOption;
         characterSelection.GetComponent<CharacterManager>().CharacterOption(selectedCharacterOption);
 
@@ -30,6 +30,7 @@ public class CharacterChoicing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        animator.SetBool("pause", chooseSkin);
         if(check)
         {
             if (tag == "Player 1")
@@ -66,6 +67,8 @@ public class CharacterChoicing : MonoBehaviour
                             characterSelection.GetComponent<CharacterManager>().CharacterOption(selectedCharacterOption);
                         }
                         check = false;
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Move");
                     }
                     if (Input.GetAxisRaw("Horizontal 1") == 1)
                     {
@@ -94,6 +97,8 @@ public class CharacterChoicing : MonoBehaviour
                             characterSelection.GetComponent<CharacterManager>().CharacterOption(selectedCharacterOption);
                         }
                         check = false;
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Move");
                     }
                     if (Input.GetAxisRaw("Vertical 1") == -1 && temp - 5 >= 1)
                     {
@@ -102,6 +107,8 @@ public class CharacterChoicing : MonoBehaviour
                         selectedCharacterOption -= 5;
                         characterSelection.GetComponent<CharacterManager>().CharacterOption(selectedCharacterOption);
                         check = false;
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Move");
                     }
                     if (Input.GetAxisRaw("Vertical 1") == 1 && temp + 5 <= totalChamp)
                     {
@@ -110,12 +117,16 @@ public class CharacterChoicing : MonoBehaviour
                         selectedCharacterOption += 5;
                         characterSelection.GetComponent<CharacterManager>().CharacterOption(selectedCharacterOption);
                         check = false;
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Move");
                     }
                     if (Input.GetButtonDown("Fire1") || Input.GetKeyDown("joystick 1 button 0"))
                     {
                         animator.SetTrigger("Ready");
                         chooseSkin = true;
                         buttonReady.interactable = true;
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Confirm");
                     }
                 }
                 else if (chooseSkin)
@@ -124,15 +135,21 @@ public class CharacterChoicing : MonoBehaviour
                     {
                         characterSelection.GetComponent<CharacterManager>().BackSkinOption();
                         check = false;
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Move");
                     }
                     if (Input.GetAxisRaw("Horizontal 1") == 1)
                     {
                         characterSelection.GetComponent<CharacterManager>().NextSkinOption();
                         check = false;
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Move");
                     }
                     if (Input.GetButtonDown("Fire1") || Input.GetKeyDown("joystick 1 button 0"))
                     {
                         Ready();
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Confirm");
                     }
                 }
             }
@@ -170,6 +187,8 @@ public class CharacterChoicing : MonoBehaviour
                             characterSelection.GetComponent<CharacterManager>().CharacterOption(selectedCharacterOption);
                         }
                         check = false;
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Move");
                     }
                     if (Input.GetAxisRaw("Horizontal 2") == 1)
                     {
@@ -198,6 +217,8 @@ public class CharacterChoicing : MonoBehaviour
                             characterSelection.GetComponent<CharacterManager>().CharacterOption(selectedCharacterOption);
                         }
                         check = false;
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Move");
                     }
                     if (Input.GetAxisRaw("Vertical 2") == -1 && temp - 5 >= 1)
                     {
@@ -206,6 +227,8 @@ public class CharacterChoicing : MonoBehaviour
                         selectedCharacterOption -= 5;
                         characterSelection.GetComponent<CharacterManager>().CharacterOption(selectedCharacterOption);
                         check = false;
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Move");
                     }
                     if (Input.GetAxisRaw("Vertical 2") == 1 && temp + 5 <= totalChamp)
                     {
@@ -214,12 +237,16 @@ public class CharacterChoicing : MonoBehaviour
                         selectedCharacterOption += 5;
                         characterSelection.GetComponent<CharacterManager>().CharacterOption(selectedCharacterOption);
                         check = false;
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Move");
                     }
                     if (Input.GetButtonDown("Fire2") || Input.GetKeyDown("joystick 2 button 0"))
                     {
                         animator.SetTrigger("Ready");
                         chooseSkin = true;
                         buttonReady.interactable = true;
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Confirm");
                     }
                 }
                 else if (chooseSkin)
@@ -228,15 +255,21 @@ public class CharacterChoicing : MonoBehaviour
                     {
                         characterSelection.GetComponent<CharacterManager>().BackSkinOption();
                         check = false;
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Move");
                     }
                     if (Input.GetAxisRaw("Horizontal 2") == 1)
                     {
                         characterSelection.GetComponent<CharacterManager>().NextSkinOption();
                         check = false;
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Move");
                     }
                     if (Input.GetButtonDown("Fire2") || Input.GetKeyDown("joystick 2 button 0"))
                     {
                         Ready();
+                        if (AudioManager.Instance)
+                            AudioManager.Instance.PlaySFX("Confirm");
                     }
                 }
             }
@@ -260,4 +293,5 @@ public class CharacterChoicing : MonoBehaviour
         ready = true;
         buttonReady.interactable = false;
     }
+
 }

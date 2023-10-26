@@ -6,6 +6,7 @@ public class Sword : MonoBehaviour
 {
     private float speed = 15f;
     private Rigidbody2D rb;
+    public int damage;
 
     // Start is called before the first frame update
     void Start()
@@ -26,14 +27,14 @@ public class Sword : MonoBehaviour
         {
             if(collision.tag == "Player 2")
             {
-                collision.GetComponent<CharacterController>().TakeDamage(40);
+                collision.GetComponent<CharacterController>().TakeDamage(damage);
             }
         }
         else if (this.tag == "Player 2 Skill")
         {
             if (collision.tag == "Player 1")
             {
-                collision.GetComponent<CharacterController>().TakeDamage(40);
+                collision.GetComponent<CharacterController>().TakeDamage(damage);
             }
         }
     }

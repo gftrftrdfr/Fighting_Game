@@ -9,6 +9,18 @@ TagManager:
   - Health Bar 1
   - Health Bar 2
   - LimitMap
+  - Player 1 Skill
+  - Player 2 Skill
+  - Body Part
+  - Hit P2
+  - Hit P1
+  - Pow P1
+  - Skill 1 P2
+  - Dash P2
+  - Dash P1
+  - Skill 1 P1
+  - Skill 2 P1
+  - Skill 2 P2
   layers:
   - Default
   - TransparentFX
@@ -24,7 +36,7 @@ TagManager:
   - Land
   - Tree P1
   - Tree P2
-  - 
+  - Dummy
   - 
   - 
   - 

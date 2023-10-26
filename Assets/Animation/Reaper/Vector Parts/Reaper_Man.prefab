@@ -1148,6 +1148,7 @@ GameObject:
   - component: {fileID: 4820803247068842}
   - component: {fileID: 95854159302373372}
   - component: {fileID: 114973503307767110}
+  - component: {fileID: 3097985603580898551}
   m_Layer: 0
   m_Name: Reaper_Man
   m_TagString: Untagged
@@ -1184,7 +1185,7 @@ Animator:
   m_GameObject: {fileID: 1808018432986172}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 58b5fe9a7412c9d4785a991a17ec1bc6, type: 2}
+  m_Controller: {fileID: 9100000, guid: ac46abc7c4c2074449162a85e7c9351e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1208,6 +1209,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sortingOrder: 0
   applySpriterZOrder: 0
+--- !u!50 &3097985603580898551
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808018432986172}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1933520965609426
 GameObject:
   m_ObjectHideFlags: 0

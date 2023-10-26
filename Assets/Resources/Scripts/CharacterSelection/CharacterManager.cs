@@ -71,17 +71,7 @@ public class CharacterManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("selectedCharacterOption" + playerNumber.ToString(), selectedCharacterOption);
         PlayerPrefs.SetInt("selectedSkinOption" + playerNumber.ToString(), selectedSkinOption);
-    }
-    public void ChangeScene()
-    {
-        string scenceName = "Desert";
-        if (PlayerPrefs.HasKey("sceneName"))
-        {
-            scenceName = PlayerPrefs.GetString("sceneName");
-        }
-        UpdateCharacter(selectedCharacterOption, selectedSkinOption);
-        SceneManager.LoadScene(scenceName);
-        //SceneManager.LoadScene("TestScene");
+        PlayerPrefs.SetString("characterName" + playerNumber.ToString(), nameText.text);
     }
     public void SetPlayerNumber(int number)
     {

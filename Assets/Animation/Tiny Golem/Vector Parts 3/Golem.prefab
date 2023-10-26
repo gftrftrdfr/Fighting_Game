@@ -950,6 +950,7 @@ GameObject:
   - component: {fileID: 4219300658212064}
   - component: {fileID: 95088602234082902}
   - component: {fileID: 114367065884605742}
+  - component: {fileID: 3405644678581554697}
   m_Layer: 0
   m_Name: Golem
   m_TagString: Untagged
@@ -974,7 +975,7 @@ Transform:
   - {fileID: 4624528866408454}
   - {fileID: 4656087158542058}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &95088602234082902
 Animator:
@@ -986,7 +987,7 @@ Animator:
   m_GameObject: {fileID: 1714274998676182}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 28d1007c6df09b5499fa2fe83a0e3fac, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7ca54fc317997454e97ba7860edbd3fd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1010,6 +1011,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sortingOrder: 0
   applySpriterZOrder: 0
+--- !u!50 &3405644678581554697
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714274998676182}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1717715502673098
 GameObject:
   m_ObjectHideFlags: 0

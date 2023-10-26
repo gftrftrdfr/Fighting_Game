@@ -74,6 +74,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healEffect: {fileID: 1708544336482566, guid: ca5dad4b41345f740b9a72fa69bd69ae, type: 3}
+  heal: 0
 --- !u!95 &84566540675740213
 Animator:
   serializedVersion: 4

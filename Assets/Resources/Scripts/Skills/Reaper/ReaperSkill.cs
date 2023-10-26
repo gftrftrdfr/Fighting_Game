@@ -27,6 +27,8 @@ public class ReaperSkill : MonoBehaviour
     public GameObject skill1;
     public GameObject skill2;
 
+    float damageScale = 1;
+
     int[] currnetHeathTmp = new int[2];
 
     // Start is called before the first frame update
@@ -47,6 +49,8 @@ public class ReaperSkill : MonoBehaviour
             skill1 = GameObject.FindGameObjectWithTag("Skill 1 P2");
             skill2 = GameObject.FindGameObjectWithTag("Skill 2 P2");
         }
+
+        damageScale = GetComponent<CharacterController>().dameSkill;
     }
 
     // Update is called once per frame
@@ -152,7 +156,7 @@ public class ReaperSkill : MonoBehaviour
         GetComponent<CharacterController>().LoadEffect(zoneEffect, GetComponent<CharacterController>().m_GroundCheck.position, Quaternion.Euler(0f, 0f, 0f), 5f, new Vector3(2.7f, 2.7f, 2.7f));
         yield return new WaitForSeconds(0.5f);
 
-        GetComponent<CharacterController>().IncreaseATK(20);
+        GetComponent<CharacterController>().IncreaseATK((int)(20 * damageScale));
         GameObject leftEffect = Instantiate(buffEffect, new Vector3(leftHand.position.x, leftHand.position.y, 2), Quaternion.Euler(0, 0, 0));
         leftEffect.transform.parent = leftHand;
         Destroy(leftEffect, 5f);
@@ -175,11 +179,11 @@ public class ReaperSkill : MonoBehaviour
         {
             if (hit.GetComponent<CharacterController>().currentHealth < currnetHeathTmp[count])
             {
-                hit.GetComponent<CharacterController>().TakeDamage((int)((currnetHeathTmp[count] - hit.GetComponent<CharacterController>().currentHealth) * 0.2));
+                hit.GetComponent<CharacterController>().TakeDamage((int)((currnetHeathTmp[count] - hit.GetComponent<CharacterController>().currentHealth) * 0.2*damageScale));
             }
             count++;
         }
-        GetComponent<CharacterController>().DecreaseATK(20);
+        GetComponent<CharacterController>().DecreaseATK((int)(20 * damageScale));
 
         skill1.GetComponent<SkillCooldown>().UseSkill(cooldown);
         yield return new WaitForSeconds(cooldown);
@@ -199,7 +203,7 @@ public class ReaperSkill : MonoBehaviour
         {
             Vector2 newVector = GetComponent<CharacterController>().m_GroundCheck.position - hit.GetComponent<CharacterController>().m_GroundCheck.position;
             hit.GetComponent<Rigidbody2D>().AddForce(newVector * hit.GetComponent<Rigidbody2D>().mass * 1300);
-            hit.GetComponent<CharacterController>().TakeDamage(150);
+            hit.GetComponent<CharacterController>().TakeDamage((int)(150 * damageScale));
             if(GetComponent<CharacterController>().m_FacingRight)
             {
                 hit.GetComponent<CharacterController>().LoadEffect(bloodEffect, new Vector3(hit.GetComponent<CharacterController>().m_GroundCheck.position.x, (hit.GetComponent<CharacterController>().m_GroundCheck.position.y + hit.GetComponent<CharacterController>().m_CeilingCheck.position.y) / 2, -2), Quaternion.Euler(0, 90, -90), 2f, Vector3.one);
@@ -236,9 +240,9 @@ public class ReaperSkill : MonoBehaviour
         Collider2D[] hits = Physics2D.OverlapCircleAll(GetComponent<CharacterController>().attackPoint.position, 2.5f, GetComponent<CharacterController>().enemyLayers);
         foreach (Collider2D hit in hits)
         {
-            if (hit.GetComponent<CharacterController>().currentHealth > hit.GetComponent<CharacterController>().maxHealth * 0.2)
+            if (hit.GetComponent<CharacterController>().currentHealth > hit.GetComponent<CharacterController>().maxHealth * .15f)
             {
-                hit.GetComponent<CharacterController>().TakeDamage(650);
+                hit.GetComponent<CharacterController>().TakeDamage((int)(650 * damageScale));
             }
             else
             {

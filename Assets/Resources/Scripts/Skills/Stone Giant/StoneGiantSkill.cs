@@ -27,6 +27,7 @@ public class StoneGiantSkill: MonoBehaviour
     public GameObject skill1;
     public GameObject skill2;
 
+    float damageScale = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +46,8 @@ public class StoneGiantSkill: MonoBehaviour
             skill1 = GameObject.FindGameObjectWithTag("Skill 1 P2");
             skill2 = GameObject.FindGameObjectWithTag("Skill 2 P2");
         }
+
+        damageScale = GetComponent<CharacterController>().dameSkill;
     }
 
     // Update is called once per frame
@@ -149,12 +152,12 @@ public class StoneGiantSkill: MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         GetComponent<EntityRenderer>().Color = new Color(0.4292453f, 1, 0.785162f);
-        GetComponent<CharacterController>().IncreaseArmor(30);
+        GetComponent<CharacterController>().IncreaseArmor((int)(30 * damageScale));
 
-        GetComponent<CharacterController>().canReflect = true;
+        GetComponent<CharacterController>().antiDame = (int)(30 * damageScale);
         yield return new WaitForSeconds(5f);
 
-        GetComponent<CharacterController>().DecreaseArmor(30);
+        GetComponent<CharacterController>().DecreaseArmor((int)(30 * damageScale));
         GetComponent<EntityRenderer>().Color = Color.white;
 
         skill1.GetComponent<SkillCooldown>().UseSkill(cooldown);
@@ -177,6 +180,7 @@ public class StoneGiantSkill: MonoBehaviour
         {
             GameObject gObject = Instantiate(rockPrefab, new Vector3(GetComponent<CharacterController>().m_GroundCheck.position.x, GetComponent<CharacterController>().m_GroundCheck.position.y - 0.8f , 2), transform.rotation);
             gObject.GetComponent<Rigidbody2D>().velocity = new Vector2(15.0f, 0.0f);
+            gObject.GetComponent<RockController>().damage = (int)(150 * damageScale);
             Destroy(gObject, 8f);
 
         }
@@ -184,6 +188,7 @@ public class StoneGiantSkill: MonoBehaviour
         {
             GameObject gObject = Instantiate(rockPrefab, new Vector3(GetComponent<CharacterController>().m_GroundCheck.position.x, GetComponent<CharacterController>().m_GroundCheck.position.y - 0.8f, 2), Quaternion.Euler(new Vector3(0f,180f,0f)));
             gObject.GetComponent<Rigidbody2D>().velocity = new Vector2(-15.0f, 0.0f);
+            gObject.GetComponent<RockController>().damage = (int)(150 * damageScale);
             Destroy(gObject, 8f);
         }
 
@@ -222,12 +227,12 @@ public class StoneGiantSkill: MonoBehaviour
             Vector2 newVector = GetComponent<CharacterController>().m_GroundCheck.position - hit.GetComponent<CharacterController>().m_GroundCheck.position;
             if (newVector.x >= 0)
             {
-                hit.GetComponent<CharacterController>().TakeDamage(350);
+                hit.GetComponent<CharacterController>().TakeDamage((int)(350 * damageScale));
                 hit.GetComponent<CharacterController>().Stun(4f, -1500f, 8000f);
             }
             else
             {
-                hit.GetComponent<CharacterController>().TakeDamage(350);
+                hit.GetComponent<CharacterController>().TakeDamage((int)(350 * damageScale));
                 hit.GetComponent<CharacterController>().Stun(4f, 1500f, 8000f);
             }
         }

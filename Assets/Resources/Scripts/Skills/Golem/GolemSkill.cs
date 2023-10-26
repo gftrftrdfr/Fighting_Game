@@ -35,6 +35,7 @@ public class GolemSkill : MonoBehaviour
     List<Vector3> vector = new List<Vector3>();
     List<float> index = new List<float>();
 
+    float damageScale = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -54,6 +55,8 @@ public class GolemSkill : MonoBehaviour
             skill1 = GameObject.FindGameObjectWithTag("Skill 1 P2");
             skill2 = GameObject.FindGameObjectWithTag("Skill 2 P2");
         }
+
+        damageScale = GetComponent<CharacterController>().dameSkill;
     }
 
     // Update is called once per frame
@@ -164,6 +167,7 @@ public class GolemSkill : MonoBehaviour
             GetComponent<CharacterController>().LoadEffect(skill1Effect, new Vector3(GetComponent<CharacterController>().attackPoint.position.x, GetComponent<CharacterController>().attackPoint.position.y, -2), Quaternion.identity, 1f, Vector3.one);
             yield return new WaitForSeconds(0.1f);
             GameObject gObject = Instantiate(macePrefab, (GetComponent<CharacterController>().m_CeilingCheck.position+ GetComponent<CharacterController>().m_GroundCheck.position)/2, transform.rotation);
+            gObject.GetComponent<Mace>().damage = (int)(100 * damageScale);
             Destroy(gObject, 1f);
         }
         else
@@ -172,6 +176,7 @@ public class GolemSkill : MonoBehaviour
             GetComponent<CharacterController>().LoadEffect(skill1Effect, new Vector3(GetComponent<CharacterController>().attackPoint.position.x, GetComponent<CharacterController>().attackPoint.position.y, -2), Quaternion.Euler(0,-180,0), 1f, Vector3.one);
             yield return new WaitForSeconds(0.1f);
             GameObject gObject = Instantiate(macePrefab, (GetComponent<CharacterController>().m_CeilingCheck.position + GetComponent<CharacterController>().m_GroundCheck.position) / 2, Quaternion.Euler(180, 0, 180));
+            gObject.GetComponent<Mace>().damage = (int)(100 * damageScale);
             Destroy(gObject, 1f);
         }
         canUseSkill1 = true;
@@ -251,7 +256,7 @@ public class GolemSkill : MonoBehaviour
                     Collider2D[] hits = Physics2D.OverlapCircleAll(GetComponent<CharacterController>().m_GroundCheck.position, 3f, GetComponent<CharacterController>().enemyLayers);
                     foreach (Collider2D hit in hits)
                     {                      
-                        hit.GetComponent<CharacterController>().TakeDamage(250);
+                        hit.GetComponent<CharacterController>().TakeDamage((int)(250 * damageScale));
                         hit.GetComponent<CharacterController>().Stun(2f, 0, 7000);
                     }
                     GameObject gObject = Instantiate(explosionEffect, new Vector3(GetComponent<CharacterController>().m_GroundCheck.position.x, GetComponent<CharacterController>().m_GroundCheck.position.y, -2), Quaternion.identity);
@@ -274,7 +279,7 @@ public class GolemSkill : MonoBehaviour
                     Collider2D[] hits = Physics2D.OverlapCircleAll(GetComponent<CharacterController>().m_GroundCheck.position, 1f, GetComponent<CharacterController>().enemyLayers);
                     foreach (Collider2D hit in hits)
                     {                      
-                        hit.GetComponent<CharacterController>().TakeDamage(150);
+                        hit.GetComponent<CharacterController>().TakeDamage((int)(150 * damageScale));
                     }
                     GameObject gObject = Instantiate(explosionEffect, new Vector3(GetComponent<CharacterController>().m_GroundCheck.position.x, GetComponent<CharacterController>().m_GroundCheck.position.y, -2), Quaternion.identity);
                     gObject.transform.localScale = new Vector3(.5f, .5f, .5f);
@@ -307,12 +312,12 @@ public class GolemSkill : MonoBehaviour
             Vector2 newVector = GetComponent<CharacterController>().m_GroundCheck.position - hit.GetComponent<CharacterController>().m_GroundCheck.position;
             if (newVector.x >= 0)
             {
-                hit.GetComponent<CharacterController>().TakeDamage(150);
+                hit.GetComponent<CharacterController>().TakeDamage((int)(150 * damageScale));
                 hit.GetComponent<CharacterController>().Stun(1f, -1000f, 7000f);
             }
             else
             {
-                hit.GetComponent<CharacterController>().TakeDamage(150);
+                hit.GetComponent<CharacterController>().TakeDamage((int)(150 * damageScale));
                 hit.GetComponent<CharacterController>().Stun(1f, 1000f, 7000f);
             }
         }
@@ -350,7 +355,7 @@ public class GolemSkill : MonoBehaviour
         }
         head.transform.position = new Vector3(0.93f, -0.3f, 0);
         head.transform.localScale = new Vector3(0.3f, 0.3f, 1);
-        weapon.active = false;
+        weapon.SetActive(false);
         GetComponent<BoxCollider2D>().size = new Vector2(2.63875151f, 2.99374962f);
         GetComponent<Collider2D>().offset = new Vector2(-0.0662674904f, 1.32302356f);
         GetComponent<CharacterController>().attackDmg = 150;
@@ -373,7 +378,7 @@ public class GolemSkill : MonoBehaviour
         }
         head.transform.position = vector[3];
         head.transform.localScale = vector[4];
-        weapon.active = true;
+        weapon.SetActive(true);
         GetComponent<BoxCollider2D>().size = vector[1];
         GetComponent<Collider2D>().offset = vector[2];
         GetComponent<CharacterController>().m_CeilingCheck.localPosition = new Vector3(0, 3.98f, 0);

@@ -11,6 +11,8 @@ public class LightningStrike : MonoBehaviour
 
     public Transform centerPoint;
 
+    public int damage;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,14 +35,14 @@ public class LightningStrike : MonoBehaviour
         {
             if (collision.tag == "Player 2")
             {
-                collision.GetComponent<CharacterController>().TakeTrueDamage(350);
+                collision.GetComponent<CharacterController>().TakeTrueDamage(damage);
             }
         }
         else if (this.tag == "Player 2 Skill")
         {
             if (collision.tag == "Player 1")
             {
-                collision.GetComponent<CharacterController>().TakeTrueDamage(350);
+                collision.GetComponent<CharacterController>().TakeTrueDamage(damage);
             }
         }
     }

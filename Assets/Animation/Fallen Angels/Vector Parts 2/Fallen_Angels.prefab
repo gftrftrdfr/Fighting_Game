@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 4425209738303058}
   - component: {fileID: 95940096906117210}
   - component: {fileID: 114569996519555076}
+  - component: {fileID: -1354737072053760166}
   m_Layer: 0
   m_Name: Fallen_Angels
   m_TagString: Untagged
@@ -131,7 +132,7 @@ Animator:
   m_GameObject: {fileID: 1143415924545394}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 190a2664e120b8f479a925c44b2c49c8, type: 2}
+  m_Controller: {fileID: 9100000, guid: e71977f768c8d624ca97dcfdbe301544, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -155,6 +156,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sortingOrder: 0
   applySpriterZOrder: 0
+--- !u!50 &-1354737072053760166
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143415924545394}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1172631032971716
 GameObject:
   m_ObjectHideFlags: 0

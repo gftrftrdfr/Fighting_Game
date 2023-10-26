@@ -16,9 +16,4 @@ public class MyPlayerObject
     {
         return gameObjects[index];
     }
-
-    public string ChampName(int index)
-    {
-        return gameObjects[index].name.ToString();
-    }
 }

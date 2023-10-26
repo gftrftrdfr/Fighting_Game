@@ -18,33 +18,68 @@ MonoBehaviour:
     - {fileID: 1797753984441286, guid: e59e946fdbabf4342964bc4a9b1fc227, type: 3}
     - {fileID: 1577502023061052, guid: 438423df18ba0f64ab984b82da4eefee, type: 3}
     - {fileID: 1143415924545394, guid: ab8efeab60fbd78478cfd01be14f9e55, type: 3}
+    UI_Sprite:
+    - {fileID: 21300000, guid: 3f458ba4894b70941a245dda8a9b593f, type: 3}
+    - {fileID: 21300000, guid: 21b2994bff46ff44ea0628a74f59f85c, type: 3}
+    - {fileID: 21300000, guid: b9ada515be434354b8ea37dc9f609519, type: 3}
+    emblem: {fileID: 21300000, guid: 1b738c6bc9eec854785191858e0b9c0d, type: 3}
   - characterName: Stone Giant
     characterSprite:
     - {fileID: 7741088904797575670, guid: 019ce89b8bf1ef74b8c696f1e7291e6a, type: 3}
     - {fileID: 3032672657413112226, guid: 99eec8f99e6b7954999a4fab0afe0541, type: 3}
     - {fileID: 8420199089779537016, guid: a877f6e8145639549b146b890d708256, type: 3}
+    UI_Sprite:
+    - {fileID: 1528218348, guid: 9cc55e6ccde616d47ad2576042f421e7, type: 3}
+    - {fileID: -327815901, guid: e7a2a22f8d815d74aa767a44396dce95, type: 3}
+    - {fileID: -1943958006, guid: 7cb86b25f16affb48900d1dd3710a260, type: 3}
+    emblem: {fileID: 21300000, guid: a82dc507446d7b048bb5e7a77b7a9e64, type: 3}
   - characterName: Minotaur
     characterSprite:
     - {fileID: 5040155807486245710, guid: e61aa4c93f853c94d91678393c13fe23, type: 3}
     - {fileID: 6929233131096232498, guid: d71e57c21ccdd094d9033c68200f0f4f, type: 3}
     - {fileID: 2946989359822449562, guid: 00226664ad03b32468c07a7888884ca1, type: 3}
+    UI_Sprite:
+    - {fileID: -1519843029, guid: 4cc4163eb46ba294b9ed7fa231bd932c, type: 3}
+    - {fileID: 719849645, guid: d618c24ca81b3494cb6924d3596bc5d8, type: 3}
+    - {fileID: -1061338497, guid: d52608330a2d1014783a44218e2cf7c5, type: 3}
+    emblem: {fileID: 21300000, guid: afd19503ed9431e4b9cd88ef7d18391a, type: 3}
   - characterName: Satyr
     characterSprite:
     - {fileID: 5135875943170319000, guid: 3bbbd0035f8edb74b8ddb03bd402d12e, type: 3}
     - {fileID: 4342735645188456583, guid: 0112b702452232b45a433f8b1a323977, type: 3}
     - {fileID: 2703155746293639683, guid: c20603ab45e831d42bf662c7d0a9689f, type: 3}
+    UI_Sprite:
+    - {fileID: 179717086, guid: 96368644a9a9dc44697d2bfdc9ffb087, type: 3}
+    - {fileID: 755513015, guid: e1aac03943a512f44a1ec7c7dd59161b, type: 3}
+    - {fileID: 1159323553, guid: aaba666098fbed141919a3af4fefdb9d, type: 3}
+    emblem: {fileID: 21300000, guid: a4475eeaa26141a4eb2d2e1e84c8bcf7, type: 3}
   - characterName: Wraith
     characterSprite:
     - {fileID: 3932360563972893228, guid: 123b0e70a037c1547b3560bbd2037af5, type: 3}
     - {fileID: 6380683231224949732, guid: c6e8a41545646634bacae128f0fbed58, type: 3}
     - {fileID: 6560062604734809618, guid: ac177b62f548aba4bbbca221cbbee7e5, type: 3}
+    UI_Sprite:
+    - {fileID: 1965196858, guid: dbe2aae8bdac92a4da9693e1ad9989d8, type: 3}
+    - {fileID: 1018399114, guid: 7a7c294e99a957d4f9bf80d0951dcc6f, type: 3}
+    - {fileID: -2131294678, guid: 99ace9dd06fb9354b9f7246d25c1de0e, type: 3}
+    emblem: {fileID: 21300000, guid: ee4bb52750cfefb46a5d9f644aa65385, type: 3}
   - characterName: Reaper
     characterSprite:
     - {fileID: 1808018432986172, guid: 2d936ca8cfcf8d64ba06f3d8bd183c30, type: 3}
     - {fileID: 1383231185366278, guid: 21b5304b0986ae54aa725b5ca0d8a326, type: 3}
     - {fileID: 1026345060812982, guid: 25a7836ee8402f9409d698be9b55590b, type: 3}
+    UI_Sprite:
+    - {fileID: 21300000, guid: f08cd8c5bd59181418e4467d52e099da, type: 3}
+    - {fileID: 21300000, guid: c8f5098f108e91e479b1aa7ad4809649, type: 3}
+    - {fileID: 21300000, guid: 76c381515214e9e4d8f5a651848a73a4, type: 3}
+    emblem: {fileID: 21300000, guid: 9b49e780f42c82f42899df53053dadb4, type: 3}
   - characterName: Golem
     characterSprite:
     - {fileID: 1632069410589986, guid: fd96c89408de2c944865a800062ab087, type: 3}
     - {fileID: 1475286338648080, guid: 8db8069ae0754674c8438b689402a2a9, type: 3}
     - {fileID: 1714274998676182, guid: 6d0265f627f732c4e8c257e2f4bd0ca0, type: 3}
+    UI_Sprite:
+    - {fileID: 21300000, guid: 09b9be06beabbfa49ac81f6059a6a46d, type: 3}
+    - {fileID: 21300000, guid: 676f1e19d33f80b41a9434e13fc1c882, type: 3}
+    - {fileID: 21300000, guid: 164431d156e973b498eb46efaa21372d, type: 3}
+    emblem: {fileID: 21300000, guid: 57adfb5d67f6e7d4db86312689fa27d8, type: 3}

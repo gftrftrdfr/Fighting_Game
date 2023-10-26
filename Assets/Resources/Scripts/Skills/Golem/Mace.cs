@@ -9,6 +9,8 @@ public class Mace : MonoBehaviour
     private Rigidbody2D rb;
     public bool check;
 
+    public int damage;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +40,7 @@ public class Mace : MonoBehaviour
             {
                 if (check)
                 {
-                    collision.GetComponent<CharacterController>().TakeDamage(200);
+                    collision.GetComponent<CharacterController>().TakeDamage(damage*2);
                     Vector2 newVector = transform.position - collision.GetComponent<CharacterController>().m_GroundCheck.position;
                     if (newVector.x < 0)
                     {
@@ -51,7 +53,7 @@ public class Mace : MonoBehaviour
                 }
                 else
                 {
-                    collision.GetComponent<CharacterController>().TakeDamage(100);
+                    collision.GetComponent<CharacterController>().TakeDamage(damage);
                 }
                 Destroy(gameObject);
             }
@@ -62,7 +64,7 @@ public class Mace : MonoBehaviour
             {
                 if (check)
                 {
-                    collision.GetComponent<CharacterController>().TakeDamage(200);
+                    collision.GetComponent<CharacterController>().TakeDamage(damage*2);
                     Vector2 newVector = transform.position - collision.GetComponent<CharacterController>().m_GroundCheck.position;
                     if (newVector.x < 0)
                     {
@@ -75,7 +77,7 @@ public class Mace : MonoBehaviour
                 }
                 else
                 {
-                    collision.GetComponent<CharacterController>().TakeDamage(100);
+                    collision.GetComponent<CharacterController>().TakeDamage(damage);
                 }
                 Destroy(gameObject);
             }

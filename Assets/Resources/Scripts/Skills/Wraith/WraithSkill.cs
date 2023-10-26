@@ -32,6 +32,7 @@ public class WraithSkill : MonoBehaviour
     public GameObject skill1;
     public GameObject skill2;
 
+    float damageScale = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,6 +51,8 @@ public class WraithSkill : MonoBehaviour
             skill1 = GameObject.FindGameObjectWithTag("Skill 1 P2");
             skill2 = GameObject.FindGameObjectWithTag("Skill 2 P2");
         }
+
+        damageScale = GetComponent<CharacterController>().dameSkill;
     }
 
     // Update is called once per frame
@@ -183,19 +186,19 @@ public class WraithSkill : MonoBehaviour
         switch (GetComponent<CharacterController>().count)
         {
             case 3:
-                gObject.GetComponent<SharpOrb>().dmg = (int)(GetComponent<CharacterController>().attackDmg * 1.3 / 3);
+                gObject.GetComponent<SharpOrb>().dmg = (int)(GetComponent<CharacterController>().attackDmg * (1.3 / 3) * damageScale);
                 gObject.transform.localScale = Vector3.one; 
                 break;
             case 6:
-                gObject.GetComponent<SharpOrb>().dmg = (int)(GetComponent<CharacterController>().attackDmg * 2 / 3);
+                gObject.GetComponent<SharpOrb>().dmg = (int)(GetComponent<CharacterController>().attackDmg * (2 / 3) * damageScale);
                 gObject.transform.localScale = new Vector3(1.25f,1.25f,1.25f);
                 break;
             case 7:
-                gObject.GetComponent<SharpOrb>().dmg = (int)(GetComponent<CharacterController>().attackDmg);
+                gObject.GetComponent<SharpOrb>().dmg = (int)(GetComponent<CharacterController>().attackDmg * damageScale);
                 gObject.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
                 break;
             default:
-                gObject.GetComponent<SharpOrb>().dmg = (int)(GetComponent<CharacterController>().attackDmg * 1 / 3);
+                gObject.GetComponent<SharpOrb>().dmg = (int)(GetComponent<CharacterController>().attackDmg * (1 / 3) * damageScale);
                 gObject.transform.localScale = new Vector3(.75f, .75f, .75f);
                 break;
         }
@@ -219,11 +222,11 @@ public class WraithSkill : MonoBehaviour
 
         buffOrb = true;
         float tmp = GetComponent<CharacterController>().attackSpeed;
-        GetComponent<CharacterController>().IncreaseATKSpeed(tmp);
+        GetComponent<CharacterController>().IncreaseATKSpeed((int)(tmp * damageScale));
 
         yield return new WaitForSeconds(5f);
         buffOrb = false;
-        GetComponent<CharacterController>().DecreaseATKSpeed(tmp);
+        GetComponent<CharacterController>().DecreaseATKSpeed((int)(tmp * damageScale));
 
         skill1.GetComponent<SkillCooldown>().UseSkill(cooldown);
         yield return new WaitForSeconds(cooldown);        
@@ -265,11 +268,13 @@ public class WraithSkill : MonoBehaviour
             if (checkFacing)
             {
                 GameObject gObject = Instantiate(lightningStrikePrefab, new Vector3(x + i * 1.5f, -5.9f, -2), transform.rotation);
+                gObject.GetComponent<LightningStrike>().damage = (int)(350 * damageScale);
                 Destroy(gObject, .5f);
             }
             else
             {
                 GameObject gObject = Instantiate(lightningStrikePrefab, new Vector3(x - i * 1.5f, -5.9f, -2), Quaternion.Euler(180, 0, 180));
+                gObject.GetComponent<LightningStrike>().damage = (int)(350 * damageScale);
                 Destroy(gObject, 0.5f);
             }
             yield return new WaitForSeconds(0.3f);

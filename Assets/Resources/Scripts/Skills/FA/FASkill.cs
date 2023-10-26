@@ -33,6 +33,8 @@ public class FASkill : MonoBehaviour
     public GameObject skill1;
     public GameObject skill2;
 
+    float damageScale = 1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +53,8 @@ public class FASkill : MonoBehaviour
             skill1 = GameObject.FindGameObjectWithTag("Skill 1 P2");
             skill2 = GameObject.FindGameObjectWithTag("Skill 2 P2");
         }
+
+        damageScale = GetComponent<CharacterController>().dameSkill;
     }
 
     // Update is called once per frame
@@ -165,13 +169,13 @@ public class FASkill : MonoBehaviour
         Destroy(rightEffect, 5f);
 
         float tmp = GetComponent<CharacterController>().dashCooldown;
-        GetComponent<CharacterController>().IncreaseATK(10);
+        GetComponent<CharacterController>().IncreaseATK((int)(10 * damageScale));
         GetComponent<CharacterController>().dashCooldown = 3f;
         enemy.GetComponent<CharacterController>().isBleeding = true ;
 
         yield return new WaitForSeconds(5f);
         enemy.GetComponent<CharacterController>().isBleeding = false;
-        GetComponent<CharacterController>().DecreaseATK(10);
+        GetComponent<CharacterController>().DecreaseATK((int)(10 * damageScale));
         GetComponent<CharacterController>().dashCooldown = tmp;
 
         skill1.GetComponent<SkillCooldown>().UseSkill(cooldown);
@@ -215,7 +219,7 @@ public class FASkill : MonoBehaviour
         {
             if(collision = enemy.GetComponent<Collider2D>())
             {
-                enemy.GetComponent<CharacterController>().TakeDamage(150);
+                enemy.GetComponent<CharacterController>().TakeDamage((int)(150 * damageScale));
                 isUsingSkill2 = false;
             }
         }
@@ -242,11 +246,13 @@ public class FASkill : MonoBehaviour
             if (GetComponent<CharacterController>().m_FacingRight)
             {
                 GameObject gObject = Instantiate(swordPrefab, new Vector3(GetComponent<CharacterController>().attackPoint.position.x, GetComponent<CharacterController>().attackPoint.position.y + Random.Range(-1f,1f), -2), transform.rotation);
+                gObject.GetComponent<Sword>().damage = (int)(40 * damageScale);
                 Destroy(gObject,2f);
             }
             else
             {
                 GameObject gObject = Instantiate(swordPrefab, new Vector3(GetComponent<CharacterController>().attackPoint.position.x, GetComponent<CharacterController>().attackPoint.position.y + Random.Range(-1f, 1f), -2), Quaternion.Euler(180, 0, 180));
+                gObject.GetComponent<Sword>().damage = (int)(40 * damageScale);
                 Destroy(gObject, 2f);
             }
             yield return new WaitForSeconds(0.1f);

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class PlayerManager : MonoBehaviour
 {
     public PlayerObjectDB playerObjectDB;
+    public CharacterDatabase characterDatabase;
 
     [Header("Image")]
     public Button powerP1;
@@ -13,6 +14,12 @@ public class PlayerManager : MonoBehaviour
     public Image skill2P1;
     public Image skill1P2;
     public Image skill2P2;
+    public Image AvtP1;
+    public Image AvtP2;
+    public SpriteRenderer emblemP1_1;
+    public SpriteRenderer emblemP1_2;
+    public SpriteRenderer emblemP2_1;
+    public SpriteRenderer emblemP2_2;
 
     private int selectedCharacterOption1 = 0;
     private int selectedCharacterOption2 = 0;
@@ -24,146 +31,84 @@ public class PlayerManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        //if (!PlayerPrefs.HasKey("selectedCharacterOption" + playerNumber.ToString())
-        //    || !PlayerPrefs.HasKey("selectedSkinOption" + playerNumber.ToString()))
-        if (!PlayerPrefs.HasKey("selectedCharacterOption1")
-        || !PlayerPrefs.HasKey("selectedCharacterOption2")
-        || !PlayerPrefs.HasKey("selectedSkinOption1")
-        || !PlayerPrefs.HasKey("selectedSkinOption2"))
+        if(PlayerPrefs.GetString("PlayMode") == "practice")
         {
-            selectedCharacterOption1 = 0;
-            selectedCharacterOption2 = 0;
-            selectedSkinOption1 = 0;
-            selectedSkinOption2 = 0;
+            if (!PlayerPrefs.HasKey("selectedCharacterOption1")
+            || !PlayerPrefs.HasKey("selectedCharacterOption2")
+            || !PlayerPrefs.HasKey("selectedSkinOption1")
+            || !PlayerPrefs.HasKey("selectedSkinOption2"))
+            {
+                selectedCharacterOption1 = 0;
+                selectedCharacterOption2 = 0;
+                selectedSkinOption1 = 0;
+                selectedSkinOption2 = 0;
+            }
+            else
+            {
+                Load();
+            }
+
+            AvtP1.sprite = CreateAvatar(selectedCharacterOption1, selectedSkinOption1);
+
+            GameObject gameObject;
+            gameObject = CreateCharacter(selectedCharacterOption1, selectedSkinOption1, 1);
+            gameObject.tag = "Player 1";
+            gameObject.layer = 9;
+            Instantiate(gameObject, new Vector3(-10, -4, 0f), Quaternion.identity);
+            powerP1.image.sprite = Resources.Load<Sprite>("Sprites/Characters/" + champName1 + "/3");
+            skill1P1.sprite = Resources.Load<Sprite>("Sprites/Characters/" + champName1 + "/1");
+            skill2P1.sprite = Resources.Load<Sprite>("Sprites/Characters/" + champName1 + "/2");
+
         }
         else
         {
-            Load();
-        }
-        GameObject gameObject;
-        UnityEngine.Object[] sprites;
-        gameObject = CreateCharacter(selectedCharacterOption1, selectedSkinOption1, 1);
-        gameObject.tag = "Player 1";
-        gameObject.layer = 9;
-        Instantiate(gameObject, new Vector3(-10, -4, 0f), Quaternion.identity);
-        switch(champName1)
-        {
-            case "Fallen_Angels":
-            case "Fallen_Angels 1":
-            case "Fallen_Angels 2":              
-                sprites = Resources.LoadAll("Sprites/Characters/Fallen Angels/50-Demon-Skill-Game-Icons2");
-                powerP1.image.sprite = sprites[7] as Sprite;
-                skill1P1.sprite = sprites[35] as Sprite;
-                skill2P1.sprite = sprites[21] as Sprite;
-                break;
+            if (!PlayerPrefs.HasKey("selectedCharacterOption1")
+            || !PlayerPrefs.HasKey("selectedCharacterOption2")
+            || !PlayerPrefs.HasKey("selectedSkinOption1")
+            || !PlayerPrefs.HasKey("selectedSkinOption2"))
+            {
+                selectedCharacterOption1 = 0;
+                selectedCharacterOption2 = 0;
+                selectedSkinOption1 = 0;
+                selectedSkinOption2 = 0;
+            }
+            else
+            {
+                Load();
+            }
 
-            case "Stone Giant":
-            case "Stone Giant 1":
-            case "Stone Giant 2":
-                sprites = Resources.LoadAll("Sprites/Characters/Stone Giant/100-RPG-Skill-Icons3");
-                powerP1.image.sprite = sprites[34] as Sprite;
-                skill2P1.sprite = sprites[22] as Sprite;
-                sprites = Resources.LoadAll("Sprites/Characters/Stone Giant/100-RPG-Skill-Icons2");
-                skill1P1.sprite = sprites[4] as Sprite;
-                break;
+            AvtP1.sprite = CreateAvatar(selectedCharacterOption1, selectedSkinOption1);
+            AvtP2.sprite = CreateAvatar(selectedCharacterOption2, selectedSkinOption2);
 
-            case "Minotaur":
-            case "Minotaur 1":
-            case "Minotaur 2":
-                sprites = Resources.LoadAll("Sprites/Characters/Minotaur/RPG-Demon-Skill-Icons2");
-                powerP1.image.sprite = sprites[3] as Sprite;
-                sprites = Resources.LoadAll("Sprites/Characters/Minotaur/100-Skill-Icons-Pack-for-RPG3");
-                skill1P1.sprite = sprites[5] as Sprite;               
-                skill2P1.sprite = sprites[17] as Sprite;
-                break;
+            Color colorEmblemP1 = new Color32(232, 106, 23, 255);
+            emblemP1_1.color = colorEmblemP1;
+            emblemP1_1.sprite = CreateEmblem(selectedCharacterOption1);
+            emblemP1_2.color = colorEmblemP1;
+            emblemP1_2.sprite = CreateEmblem(selectedCharacterOption1);
 
-            case "Satyr":
-            case "Satyr 1":
-            case "Satyr 2":
-                sprites = Resources.LoadAll("Sprites/Characters/Satyr/RPG-Bard-Skill-Icons2");
-                powerP1.image.sprite = sprites[35] as Sprite;
-                skill1P1.sprite = sprites[46] as Sprite;
-                skill2P1.sprite = sprites[6] as Sprite;
-                break;
+            Color colorEmblemP2 = new Color32(65, 159, 221, 255);
+            emblemP2_1.color = colorEmblemP2;
+            emblemP2_1.sprite = CreateEmblem(selectedCharacterOption2);
+            emblemP2_2.color = colorEmblemP2;
+            emblemP2_2.sprite = CreateEmblem(selectedCharacterOption2);
 
-            case "Wraith":
-            case "Wraith 1":
-            case "Wraith 2":
-                powerP1.image.sprite = Resources.Load<Sprite>("Sprites/Characters/Wraith/39");
-                skill1P1.sprite = Resources.Load<Sprite>("Sprites/Characters/Wraith/11");
-                skill2P1.sprite = Resources.Load<Sprite>("Sprites/Characters/Wraith/43");
-                break;
 
-            case "Reaper":
-            case "Reaper 1":
-            case "Reaper 2":
-                sprites = Resources.LoadAll("Sprites/Characters/Reaper/RPG-Blood-Mage-Skill-Icons2");
-                powerP1.image.sprite = sprites[1] as Sprite;
-                skill1P1.sprite = sprites[12] as Sprite;
-                skill2P1.sprite = sprites[27] as Sprite;
-                break;
-        }
-        gameObject = CreateCharacter(selectedCharacterOption2, selectedSkinOption2, 2);
-        gameObject.tag = "Player 2";
-        gameObject.layer = 10  ;
-        Instantiate(gameObject, new Vector3(10, -4,-0.5f), Quaternion.identity);
-        switch (champName2)
-        {
-            case "Fallen_Angels":
-            case "Fallen_Angels 1":
-            case "Fallen_Angels 2":
-                sprites = Resources.LoadAll("Sprites/Characters/Fallen Angels/50-Demon-Skill-Game-Icons2");
-                powerP2.image.sprite = sprites[7] as Sprite;
-                skill1P2.sprite = sprites[35] as Sprite;
-                skill2P2.sprite = sprites[21] as Sprite;
-                break;
+            GameObject gameObject;
+            gameObject = CreateCharacter(selectedCharacterOption1, selectedSkinOption1, 1);
+            gameObject.tag = "Player 1";
+            gameObject.layer = 9;
+            Instantiate(gameObject, new Vector3(-10, -4, 0f), Quaternion.identity);
+            powerP1.image.sprite = Resources.Load<Sprite>("Sprites/Characters/" + champName1 + "/3");
+            skill1P1.sprite = Resources.Load<Sprite>("Sprites/Characters/" + champName1 + "/1");
+            skill2P1.sprite = Resources.Load<Sprite>("Sprites/Characters/" + champName1 + "/2");
 
-            case "Stone Giant":
-            case "Stone Giant 1":
-            case "Stone Giant 2":
-                sprites = Resources.LoadAll("Sprites/Characters/Stone Giant/100-RPG-Skill-Icons3");
-                powerP2.image.sprite = sprites[34] as Sprite;
-                skill2P2.sprite = sprites[22] as Sprite;
-                sprites = Resources.LoadAll("Sprites/Characters/Stone Giant/100-RPG-Skill-Icons2");
-                skill1P2.sprite = sprites[4] as Sprite;
-                break;
-
-            case "Minotaur":
-            case "Minotaur 1":
-            case "Minotaur 2":
-                sprites = Resources.LoadAll("Sprites/Characters/Minotaur/RPG-Demon-Skill-Icons2");
-                powerP2.image.sprite = sprites[3] as Sprite;
-                sprites = Resources.LoadAll("Sprites/Characters/Minotaur/100-Skill-Icons-Pack-for-RPG3");
-                skill1P2.sprite = sprites[5] as Sprite;
-                skill2P2.sprite = sprites[17] as Sprite;
-                break;
-
-            case "Satyr":
-            case "Satyr 1":
-            case "Satyr 2":
-                sprites = Resources.LoadAll("Sprites/Characters/Satyr/RPG-Bard-Skill-Icons2");
-                powerP2.image.sprite = sprites[35] as Sprite;
-                skill1P2.sprite = sprites[46] as Sprite;
-                skill2P2.sprite = sprites[6] as Sprite;
-                break;
-
-            case "Wraith":
-            case "Wraith 1":
-            case "Wraith 2":
-                sprites = Resources.LoadAll("Sprites/Characters/Satyr/RPG-Bard-Skill-Icons2");
-                powerP2.image.sprite = Resources.Load<Sprite>("Sprites/Characters/Wraith/39");
-                skill1P2.sprite = Resources.Load<Sprite>("Sprites/Characters/Wraith/11");
-                skill2P2.sprite = Resources.Load<Sprite>("Sprites/Characters/Wraith/43");
-                break;
-
-            case "Reaper":
-            case "Reaper 1":
-            case "Reaper 2":
-                sprites = Resources.LoadAll("Sprites/Characters/Reaper/RPG-Blood-Mage-Skill-Icons2");
-                powerP2.image.sprite = sprites[1] as Sprite;
-                skill1P2.sprite = sprites[12] as Sprite;
-                skill2P2.sprite = sprites[27] as Sprite;
-                break;
+            gameObject = CreateCharacter(selectedCharacterOption2, selectedSkinOption2, 2);
+            gameObject.tag = "Player 2";
+            gameObject.layer = 10;
+            Instantiate(gameObject, new Vector3(10, -4, -0.5f), Quaternion.identity);
+            powerP2.image.sprite = Resources.Load<Sprite>("Sprites/Characters/" + champName2 + "/3");
+            skill1P2.sprite = Resources.Load<Sprite>("Sprites/Characters/" + champName2 + "/1");
+            skill2P2.sprite = Resources.Load<Sprite>("Sprites/Characters/" + champName2 + "/2");
         }
 
     }
@@ -173,20 +118,36 @@ public class PlayerManager : MonoBehaviour
         GameObject gameObject = myPlayerObject.GetGameObject(selectedSkinOption);
         if(playerNumber == 1)
         {
-            champName1 = myPlayerObject.ChampName(selectedSkinOption);
+            champName1 = PlayerPrefs.GetString("characterName1");
         }
-        else
+        else if (PlayerPrefs.GetString("PlayMode") != "practice" && playerNumber == 2)
         {
-            champName2 = myPlayerObject.ChampName(selectedSkinOption);
+            champName2 = PlayerPrefs.GetString("characterName2");
         }
         return gameObject;
     }
 
+    private Sprite CreateAvatar(int selectedCharacterOption, int selectedSkinOption)
+    {
+        Character character = characterDatabase.GetCharacter(selectedCharacterOption);
+        return character.GetUI(selectedSkinOption);      
+    }
+
+    private Sprite CreateEmblem(int selectedCharacterOption)
+    {
+        Character character = characterDatabase.GetCharacter(selectedCharacterOption);
+        return character.emblem;
+    }
+
     private void Load()
     {
-        selectedCharacterOption1 = PlayerPrefs.GetInt("selectedCharacterOption1");
-        selectedCharacterOption2 = PlayerPrefs.GetInt("selectedCharacterOption2");
+        selectedCharacterOption1 = PlayerPrefs.GetInt("selectedCharacterOption1");       
         selectedSkinOption1 = PlayerPrefs.GetInt("selectedSkinOption1");
-        selectedSkinOption2 = PlayerPrefs.GetInt("selectedSkinOption2");
+        
+        if (PlayerPrefs.GetString("PlayMode") != "practice")
+        {
+            selectedCharacterOption2 = PlayerPrefs.GetInt("selectedCharacterOption2");
+            selectedSkinOption2 = PlayerPrefs.GetInt("selectedSkinOption2");
+        }
     }
 }

@@ -37,6 +37,7 @@ public class MinaSkill : MonoBehaviour
     public GameObject skill1;   
     public GameObject skill2;
 
+    float damageScale = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -55,6 +56,8 @@ public class MinaSkill : MonoBehaviour
             skill1 = GameObject.FindGameObjectWithTag("Skill 1 P2");
             skill2 = GameObject.FindGameObjectWithTag("Skill 2 P2");
         }
+
+        damageScale = GetComponent<CharacterController>().dameSkill;
     }
 
     // Update is called once per frame
@@ -155,12 +158,12 @@ public class MinaSkill : MonoBehaviour
                     {
                         if (this.GetComponent<CharacterController>().m_FacingRight)
                         {
-                            hit.GetComponent<CharacterController>().TakeDamage(120);
+                            hit.GetComponent<CharacterController>().TakeDamage((int)(120*damageScale));
                             hit.GetComponent<Rigidbody2D>().AddForce(new Vector2(3000f, 5000f));
                         }
                         else
                         {
-                            hit.GetComponent<CharacterController>().TakeDamage(120);
+                            hit.GetComponent<CharacterController>().TakeDamage((int)(120 * damageScale));
                             hit.GetComponent<Rigidbody2D>().AddForce(new Vector2(-3000f, 5000f));
                         }
                         canDamage = false;
@@ -196,12 +199,12 @@ public class MinaSkill : MonoBehaviour
                     {
                         if (this.GetComponent<CharacterController>().m_FacingRight)
                         {
-                            hit.GetComponent<CharacterController>().TakeDamage(150);
+                            hit.GetComponent<CharacterController>().TakeDamage((int)(150 * damageScale));
                             hit.GetComponent<Rigidbody2D>().AddForce(new Vector2(3000f, 5000f));
                         }
                         else
                         {
-                            hit.GetComponent<CharacterController>().TakeDamage(150);
+                            hit.GetComponent<CharacterController>().TakeDamage((int)(150 * damageScale));
                             hit.GetComponent<Rigidbody2D>().AddForce(new Vector2(-3000f, 5000f));
                         }
                         canDamage = false;
@@ -251,18 +254,17 @@ public class MinaSkill : MonoBehaviour
         rightEffect.transform.parent = rightHand;
         Destroy(rightEffect, 5f);
 
-        GetComponent<CharacterController>().canHealWhenATK = true;
+        StartCoroutine(GetComponent<CharacterController>().HealthSkill(40, 5));
 
-        GetComponent<CharacterController>().IncreaseATKSpeed(0.5f);
-
+        GetComponent<CharacterController>().IncreaseArmor((int)(10 * damageScale));
         yield return new WaitForSeconds(.5f);
-        GetComponent<CharacterController>().IncreaseSpeed(5);
+        GetComponent<CharacterController>().IncreaseSpeed((int)(5 * damageScale));
 
         yield return new WaitForSeconds(5f);
 
-        GetComponent<CharacterController>().DecreaseATKSpeed(0.5f);
-        GetComponent<CharacterController>().DecreaseSpeed(5);
-        GetComponent<CharacterController>().canHealWhenATK = false;
+        GetComponent<CharacterController>().DecreaseArmor((int)(10 * damageScale));
+        yield return new WaitForSeconds(.5f);
+        GetComponent<CharacterController>().DecreaseSpeed((int)(5 * damageScale));
 
         skill1.GetComponent<SkillCooldown>().UseSkill(cooldown);
         yield return new WaitForSeconds(cooldown);
@@ -287,12 +289,12 @@ public class MinaSkill : MonoBehaviour
             {
                 if (!GetComponent<CharacterController>().m_FacingRight)
                 {
-                    hit.GetComponent<CharacterController>().TakeDamage(200);
+                    hit.GetComponent<CharacterController>().TakeDamage((int)(200 * damageScale));
                     hit.GetComponent<CharacterController>().Stun(2f, -1000f, 6000f);
                 }
                 else
                 {
-                    hit.GetComponent<CharacterController>().TakeDamage(200);
+                    hit.GetComponent<CharacterController>().TakeDamage((int)(200 * damageScale));
                     hit.GetComponent<CharacterController>().Stun(2f, 1000f, 6000f);
                 }
             }
@@ -306,12 +308,12 @@ public class MinaSkill : MonoBehaviour
             {
                 if (!GetComponent<CharacterController>().m_FacingRight)
                 {
-                    hit.GetComponent<CharacterController>().TakeDamage(350);
+                    hit.GetComponent<CharacterController>().TakeDamage((int)(350 * damageScale));
                     hit.GetComponent<CharacterController>().Stun(2f, -1000f, 6000f);
                 }
                 else
                 {
-                    hit.GetComponent<CharacterController>().TakeDamage(350);
+                    hit.GetComponent<CharacterController>().TakeDamage((int)(350 * damageScale));
                     hit.GetComponent<CharacterController>().Stun(2f, 1000f, 6000f);
                 }
             }

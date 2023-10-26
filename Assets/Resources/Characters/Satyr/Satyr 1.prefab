@@ -302,6 +302,7 @@ GameObject:
   - component: {fileID: 1615183853355845757}
   - component: {fileID: 1495828696032457974}
   - component: {fileID: 606908691323470416}
+  - component: {fileID: -7530830659529522954}
   m_Layer: 10
   m_Name: Satyr 1
   m_TagString: Player 2
@@ -421,6 +422,7 @@ MonoBehaviour:
   hitEffect: {fileID: 167046, guid: 6062cf74dd326b146b31d28120ade333, type: 3}
   healEffect: {fileID: 4569046032541823318, guid: 448ffbcf71db27749b98c4ed68e15143, type: 3}
   defenEffect: {fileID: 183926, guid: 4521beae76563514c973ad91018ea53e, type: 3}
+  smokeDashEffect: {fileID: 6265441924339636658, guid: 8a464c8860b372a478dfb4c3ca8f0ef4, type: 3}
   atkUpEffect: {fileID: 1615577717525490, guid: 22ee1671d443ff04fa946700165ba7c7, type: 3}
   atkSpeedUpEffect: {fileID: 1078954705863558, guid: 9de7ac4e8a1dc33458e6d45b26fd5501, type: 3}
   speedUpEffect: {fileID: 1240278750953118, guid: 63614b5f8f093ed4e91bf11509e5f760, type: 3}
@@ -441,6 +443,8 @@ MonoBehaviour:
   attackDmg: 90
   attackSpeed: 3
   armor: 20
+  staminaLoss: 1
+  dameSkill: 1
   jump: 0
   canTakeDame: 1
   canDash: 1
@@ -448,6 +452,7 @@ MonoBehaviour:
   canMove: 1
   canAttack: 1
   cooldownAttack: 1
+  cooldownHeavyAttack: 1
   canDefen: 1
   canStun: 1
   canReflect: 0
@@ -540,6 +545,86 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 309b786bc22e0ea4c8550b6570a662e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_WhatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
+  m_GroundCheck: {fileID: 0}
+  m_CeilingCheck: {fileID: 0}
+  attackPoint: {fileID: 0}
+  attackRange: 0.5
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  jumpEffect: {fileID: 0}
+  runEffect: {fileID: 0}
+  hurtEffect1: {fileID: 0}
+  hurtEffect2: {fileID: 0}
+  hurtEffect3: {fileID: 0}
+  dieEffect: {fileID: 0}
+  bleedEffect: {fileID: 0}
+  slashEffect: {fileID: 0}
+  slashEffect2: {fileID: 0}
+  slashEffect3: {fileID: 0}
+  hitEffect: {fileID: 0}
+  healEffect: {fileID: 0}
+  defenEffect: {fileID: 0}
+  smokeDashEffect: {fileID: 0}
+  atkUpEffect: {fileID: 0}
+  atkSpeedUpEffect: {fileID: 0}
+  speedUpEffect: {fileID: 0}
+  ammorUpEffect: {fileID: 0}
+  staminaUpEffect: {fileID: 0}
+  healthUpEffect: {fileID: 0}
+  stunEffect: {fileID: 0}
+  stunHitEffect: {fileID: 0}
+  intoxicatedEffect: {fileID: 0}
+  silencedEffect: {fileID: 0}
+  walkSpeed: 8
+  maxHealth: 100
+  currentHealth: 0
+  maxStamina: 1000000
+  currentStamina: 0
+  maxPower: 100
+  currentPower: 0
+  attackDmg: 10
+  attackSpeed: 1
+  armor: 20
+  staminaLoss: 1
+  dameSkill: 1
+  jump: 0
+  canTakeDame: 1
+  canDash: 1
+  canUseSkill: 1
+  canMove: 1
+  canAttack: 1
+  cooldownAttack: 1
+  cooldownHeavyAttack: 1
+  canDefen: 1
+  canStun: 1
+  canReflect: 0
+  canHeal: 0
+  canHealWhenATK: 0
+  isAttacking: 0
+  isDefending: 0
+  isStun: 0
+  isIntoxicated: 0
+  isGrounded: 0
+  m_FacingRight: 1
+  isBleeding: 0
+  isDead: 0
+  dashCooldown: 10
+  stunTime: 0
+  intoxicatedTime: 0
+  dashTime: 0
+  runTime: 0
+  healTime: 0
+  count: 1
+  timeCanNotAttack: 0
+  timeCanNotMove: 0
+  textPopup: {fileID: 0}
+  hitTextP1: {fileID: 0}
+  hitTextP2: {fileID: 0}
+  dash: {fileID: 0}
   treePrefab: {fileID: 3549573676166995481, guid: c57327eaf9ccb904ea327b4461d4c66c, type: 3}
   leftHand: {fileID: 1615183854009142974}
   rightHand: {fileID: 1615183853944311946}
@@ -550,6 +635,27 @@ MonoBehaviour:
   powTauntEffect: {fileID: 1260984136241199202, guid: 5fb8e716d5079f641b7f1e0ef3a9cd5c, type: 3}
   skill1: {fileID: 0}
   skill2: {fileID: 0}
+--- !u!114 &-7530830659529522954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615183853355845762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72a53801c8f490846ad443f1fdcc5ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emoji1: {fileID: 1452515053693446, guid: 2e56fd1643229fd459ca004221b6c96f, type: 3}
+  emoji2: {fileID: 180600, guid: f276f55eadaf0e34ba03d5b43bfbfae0, type: 3}
+  emoji3: {fileID: 1238154324082714, guid: c1720eca2edd54e498243e98d0274602, type: 3}
+  emoji4: {fileID: 1240120653875528, guid: dca8dc67ab8f9a64d8aba9884c36c2ff, type: 3}
+  emoji5: {fileID: 173990, guid: 69359de5f8759454bbfe449e619129bc, type: 3}
+  emoji6: {fileID: 120732, guid: 9e3b6489a85bfa04e844964c8c1e12ed, type: 3}
+  emoji7: {fileID: 138276, guid: 92cf35f623d72fc448f4d0661c9284f5, type: 3}
+  emoji8: {fileID: 156528, guid: 93a7485b7f1564c4aae6a739c3edc50e, type: 3}
+  emoji9: {fileID: 1393394035347250, guid: 309e5b7789ae90b4d9a211eae4438307, type: 3}
 --- !u!1 &1615183853392532891
 GameObject:
   m_ObjectHideFlags: 0

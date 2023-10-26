@@ -32,6 +32,8 @@ public class SatyrSkill : MonoBehaviour
     public GameObject skill1;
     public GameObject skill2;
 
+    float damageScale = 1;
+
     int[] temp1 = new int [5];
     int[] temp2 = new int[5];
 
@@ -53,6 +55,8 @@ public class SatyrSkill : MonoBehaviour
             skill1 = GameObject.FindGameObjectWithTag("Skill 1 P2");
             skill2 = GameObject.FindGameObjectWithTag("Skill 2 P2");
         }
+
+        damageScale = GetComponent<CharacterController>().dameSkill;
     }
 
     // Update is called once per frame
@@ -163,8 +167,8 @@ public class SatyrSkill : MonoBehaviour
         Collider2D[] hits = Physics2D.OverlapCircleAll(new Vector3(GetComponent<CharacterController>().m_GroundCheck.position.x + 2, GetComponent<CharacterController>().m_GroundCheck.position.y, GetComponent<CharacterController>().m_GroundCheck.position.z), 6f, GetComponent<CharacterController>().enemyLayers);
         foreach (Collider2D hit in hits)
         {
-            temp1[count] = (int)(hit.GetComponent<CharacterController>().attackDmg * 0.2);
-            temp2[count] = (int)(hit.GetComponent<CharacterController>().armor * 0.2);
+            temp1[count] = (int)(hit.GetComponent<CharacterController>().attackDmg * 0.2 * damageScale);
+            temp2[count] = (int)(hit.GetComponent<CharacterController>().armor * 0.2 * damageScale);
             hit.GetComponent<CharacterController>().DecreaseATK(temp1[count]);
             hit.GetComponent<CharacterController>().DecreaseArmor(temp2[count]);
             atkTemp += temp1[count];
@@ -218,6 +222,7 @@ public class SatyrSkill : MonoBehaviour
         foreach (Collider2D temp in temps)
         {
             temp.GetComponent<CharacterController>().Intoxicated(1.5f, transform);
+            temp.GetComponent<CharacterController>().TakeDamage((int)(100 * damageScale));
         }
 
         skill2.GetComponent<SkillCooldown>().UseSkill(cooldown);
@@ -236,6 +241,7 @@ public class SatyrSkill : MonoBehaviour
 
         treePrefab.tag = tag + " Skill";
         GameObject gObject = Instantiate(treePrefab, new Vector3(GetComponent<CharacterController>().m_GroundCheck.position.x, GetComponent<CharacterController>().m_GroundCheck.position.y, 0), transform.rotation);
+        gObject.GetComponent<TreeController>().heal = (int)(40 * damageScale);
         Destroy(gObject, 5f);
 
         yield return new WaitForSeconds(5f);

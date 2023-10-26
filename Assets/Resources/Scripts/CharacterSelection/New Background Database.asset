@@ -15,31 +15,46 @@ MonoBehaviour:
   backgroundObjects:
   - backgroundName: Desert
     backgroundObject: {fileID: 8390532148072968261, guid: 7f0c2233c0f6fd34397d8feb6fecb43d, type: 3}
+    backgroundImage: {fileID: 21300000, guid: 324206ba7ad4e094ea87eb23895c34c5, type: 3}
   - backgroundName: Fairy
     backgroundObject: {fileID: 8390532148072968261, guid: 5907b570bdd477241925323fdb084b3c, type: 3}
+    backgroundImage: {fileID: 21300000, guid: ff3be4d345bceec42917f66948e40c68, type: 3}
   - backgroundName: Radiation
     backgroundObject: {fileID: 8390532148072968261, guid: 9a7708db25961b8449b9e832ddec9da7, type: 3}
+    backgroundImage: {fileID: 21300000, guid: d885dabe188bcda4c8c53774b440c945, type: 3}
   - backgroundName: Beach
     backgroundObject: {fileID: 8390532148072968261, guid: 3efe5af85457acd4380f59a7b4d39293, type: 3}
+    backgroundImage: {fileID: 21300000, guid: ad521bcc6381090429b86d946e93d245, type: 3}
   - backgroundName: Cemetery
     backgroundObject: {fileID: 8390532148072968261, guid: f7aefcbd306cc50438ac378c73c3df24, type: 3}
+    backgroundImage: {fileID: 21300000, guid: 9dbab7b4791f85b4ea27e37adc061646, type: 3}
   - backgroundName: Christmas
     backgroundObject: {fileID: 8390532148072968261, guid: 0a54ed61e2988024eaba40b3f68f6337, type: 3}
+    backgroundImage: {fileID: 21300000, guid: 8415fb16fcb72eb4582f94297a0d40bf, type: 3}
   - backgroundName: Death Forest
     backgroundObject: {fileID: 8390532148072968261, guid: 2d517dfac5d3de94dbf4694cec16114f, type: 3}
+    backgroundImage: {fileID: 21300000, guid: ef65cd1db7538134fa994bbd832674dc, type: 3}
   - backgroundName: Forest
     backgroundObject: {fileID: 8390532148072968261, guid: b3e60c14ba148ae409072bdb1111199c, type: 3}
+    backgroundImage: {fileID: 21300000, guid: 0b1c362d5fdb87d44a02978349450752, type: 3}
   - backgroundName: Halloween
     backgroundObject: {fileID: 8390532148072968261, guid: 4e2aae11b618f3c498ee647a7652e27e, type: 3}
+    backgroundImage: {fileID: 21300000, guid: 969058d8597bc0a4a852a2f2ee56ef9f, type: 3}
   - backgroundName: Horizon
     backgroundObject: {fileID: 8390532148072968261, guid: 60f1046f125186c4ba421ee58e331481, type: 3}
+    backgroundImage: {fileID: 21300000, guid: e5ab216725906b64ca0aa5e95a975f98, type: 3}
   - backgroundName: HPBD
     backgroundObject: {fileID: 8390532148072968261, guid: 72926ffffe157be44834c4b09d221a21, type: 3}
+    backgroundImage: {fileID: 21300000, guid: 4ef406be6df03d4408996696391c7c8c, type: 3}
   - backgroundName: Red Forest
     backgroundObject: {fileID: 8390532148072968261, guid: 4f433d575cb4552449da3a9d45b5a794, type: 3}
+    backgroundImage: {fileID: 21300000, guid: 579086f453177c64dbc5e5f64f0a754d, type: 3}
   - backgroundName: Saturn
     backgroundObject: {fileID: 8390532148072968261, guid: 5807550193a2876439e7265ac8601ed4, type: 3}
+    backgroundImage: {fileID: 21300000, guid: d3dcd190e542ab046b729991e339f20a, type: 3}
   - backgroundName: Under Sea
     backgroundObject: {fileID: 8390532148072968261, guid: fe16498751777104dab206058170d60f, type: 3}
+    backgroundImage: {fileID: 21300000, guid: 9dd50de4b5fa0da47a45429c8f0b130b, type: 3}
   - backgroundName: Winter
     backgroundObject: {fileID: 8390532148072968261, guid: f9a86330ea69faf41a711dc94fe1b4b7, type: 3}
+    backgroundImage: {fileID: 21300000, guid: 752a8c620fd4afa46b61af6ccff18839, type: 3}
